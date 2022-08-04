@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.me-auto {
+    margin-right: 0!important;
+    margin-left: auto !important;
+}
+
+
+.main{
+    background-image:url(images/hero.png);
+    width:100%;
+    z-index: 10;
+    
+ }
+ .main-2{
+  background: rgba(127, 29, 29, 0.33);
+z-index: -12;
+ }
+
+ .group{
+      margin-left:2em;
+      margin-top:230px;
+      background-image:url()
+    
+ }
+
+ .background{
+    background-image: url(images/top.png);
+    z-index: 1;
+ }
+
+ .maskgroup{
+    display: flex;
+    justify-content: center;
+    padding-left:42px ;
+    padding-top: 100px;
+    min-height: 90vh;
+
+ }
+ .main-flex {
+    display: flex;
+    flex-direction: row;
+ }
+ .list-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 0px 30px;
+ }
+ .heading-text{
+   /* Key Pieces of New Season */
+
+   font-family: 'Bigilla';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 96px;
+   line-height: 100px;
+   /* or 104% */
+   
+   
+   color: #2F2649;
+   
+
+
+ }
+ @media only screen and (min-width: 1200px) {
+    .heading-text{
+       /* Key Pieces of New Season */
+
+       font-family: 'Bigilla';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 96px;
+       line-height: 100px;
+       /* or 104% */
+       
+       
+       color: #2F2649;
+       
+
+
+     }
+ }
+
+ @media only screen and (min-width: 992px) {
+    .heading-text{
+   /* Key Pieces of New Season */
+
+
+   font-family: 'Bigilla';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 96px;
+   line-height: 100px;
+   /* or 104% */
+   
+   
+   color: #2F2649;
+   
+
+
+
+ }}
+
+ @media only screen and (max-width: 768px) {
+
+ .heading-text{
+/* Key Pieces of New Season */
+
+
+font-family: 'Bigilla';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100px;
+/* or 104% */
+
+
+color: #2F2649;
+
+
+
+ }
+}
+@media only screen and (min-width: 600px) {
+    .heading-text{
+ /* Key Pieces of New Season */
+ font-family: 'Bigilla';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 96px;
+ line-height: 100px;
+ /* or 104% */
+ 
+ 
+ color: #2F2649;
+ 
+
+
+     }
+}
+@media only screen and (max-width: 300px) {
+
+    .heading-text{
+   /* Key Pieces of New Season */
+    width:241px;
+   font-family: 'Bigilla';
+   font-weight: 500;
+   font-size: 26px;
+   line-height: 100px;
+   /* or 104% */
+   color: #2F2649;
+ 
+
+     }
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+padding-top: 43px;
+color: #4F433F !important; 
+
+}
+
+
+
+
+ .list-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:84px;
+ }
+
+ .description-tag{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 20px;
+/* identical to box height, or 91% */
+
+
+color: #4F433F;
+
+ }
+ .line-image{
+    width:90px;
+    padding-bottom:122px;
+    font-weight: 700px;
+ }
+
+ 
+
+ .box-block {
+    background: rgba(200, 172, 161, 0.26);
+    border-radius: 8px;
+    width: 90%;
+    height: 143px;
+    border-radius: 8px;
+    display: flex;
+    margin-left: 0px;
+  }
+  .box-1{
+    width: 25%;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px
+  }
+  .box-2 {
+    width: 25%;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px
+  }
+  
+  .box-3 {
+    width: 25%;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px
+  }
+  
+  .box-4 {
+    width: 25%;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px
+  }
+  .box-5{
+    width: 5%;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 20px
+  }
+  .navbar-nav{
+    padding-right:92px ;
+  }
+.navbar-brand{
+    padding-left:62px;
+    padding-top: 43px;
+    background-color: linear-gradient(179.77deg, #C8ADA2 -22.78%, #D5D3C9 87.53%);
+}
+.space-count{
+    height:200px;
+}
+.info-1{
+    display: flex;
+    background-color: #ffff;
+    margin-top:70px;
+    border-radius: 8px;
+    box-shadow: 10px 10px rgba(199, 185, 192, 0.3);;
+
+    margin-bottom:90px;
+
+
+}
+
+  .info-1 > div {
+    background: #ffff;;
+    margin: 10px;
+    padding: 20px;
+  }
+  h1{
+    display: flex;
+    font-family: 'Brasley';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    align-content: center;    
+    text-align: center;
+    padding-left:22px;
+    
+    color: #000000;
+    
+  }
+  p{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:-4px;
+    color: #6B7280;
+    
+
+  }
+  .info1{
+    margin-left:45px;
+  }
+
+  @media only screen and (max-width: 600px){
+    .info-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+  }
+
+
