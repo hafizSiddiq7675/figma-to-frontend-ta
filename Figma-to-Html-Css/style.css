@@ -250,7 +250,11 @@ color: #4F433F;
     
   }
   .navbar-nav{
+    display: flex;
+    flex-direction: row;
     padding-right:92px ;
+    justify-content: space-between;
+
   }
 .navbar-brand{
     padding-left:62px;
@@ -285,8 +289,9 @@ color: #4F433F;
     line-height: 20px;
     align-content: center;    
     text-align: center;
-    padding-left:40px;
-    
+    padding-left:45px;
+    margin-left:5px;
+
     color: #000000;
     
   }
@@ -446,8 +451,6 @@ padding-bottom: 50px;;
 }
 
 .button-background{
-  display: flex;
-  justify-content: center;
   background: rgba(200, 172, 161, 0.2);
   border-radius: 8px;
   margin-top:55px;
@@ -459,9 +462,7 @@ padding-bottom: 50px;;
   font-size: 32px;
   line-height: 20px;
   color: #5B6E9D;
-  /* margin-bottom:44px; */
-  padding:50px;
-  margin-left:365px;
+  justify-content: center;
 }
 
 
@@ -504,24 +505,6 @@ z-index: 80;
   border-radius: 8px;
   margin-top: 103px;
 }
-
-.right-one {
-  display: flex;
-  flex-direction: column;
-  height: 239px;
-  margin-top: 103px;
-  background: #F4EEEC;
-  border-radius: 8px;
-}
-
-.right-second {
-  display: flex;
-  height: 247px;
-  margin-top: 10px;
-  background: #F4EEEC;
-  border-radius: 8px;
-}
-
 .sale-block {
   margin-left: 53px;
   margin-top: 33px;
@@ -566,10 +549,7 @@ z-index: 80;
   flex-direction: row;
   justify-content: space-between;
 }
-.bag-image{
-  display:flex;
 
-}
 .testimonials{
   justify-content: center;
   padding-top:60px;
@@ -586,4 +566,271 @@ color: #000000;
 .main-right{
   display: flexbox;
   flex-direction: column;
+}
+.right-one{
+  margin-top:105px;
+  display: flex;
+  flex-direction: row;
+  height: 240px;
+  background: rgba(200, 172, 161, 0.2);
+  border-radius: 8px;
+}
+.right-inside-one{
+  display: flex;
+  flex-direction: column;
+}
+.right-inside-two{
+  
+  display: flex;
+  flex-direction: column;
+  padding-left:70px;
+  margin-top:-73px ;
+
+}
+
+ .sale-gala{
+  font-family: 'Brasley';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+/* identical to box height, or 125% */
+
+
+color: #2F2649;
+margin-left: 1px;
+
+ }
+ .inside-one-first{
+  width:210px;
+  padding-top:50px;
+  padding-left:20px;
+ }
+.sale-newitem{
+  font-family: 'Brasley';
+font-style: small;
+font-weight: 400;
+font-size: 32px;
+line-height: 50px;
+/* identical to box height, or 109% */
+
+text-align: center;
+
+color: #7287BB;
+
+}
+.sale-shopnow{
+  font-family: 'Brasley';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+text-align: center;
+margin-top:-22px;
+color: #000000;
+
+}
+.assign-arrow{
+  padding-left:30px;
+  margin-top:-2px;
+}
+
+.right-second{
+  display: flex;
+  
+  margin-top: 23px;
+  height: 230px;
+  background: rgba(200, 172, 161, 0.2);
+  border-radius: 8px;
+}
+.right-second-one{
+  
+    display: flex;
+    flex-direction: column;
+  }
+.shirt-image{
+  padding-top:30px;
+  padding-left:22px;
+  margin-left: 20px;;
+}
+.inside-second-first{
+  width:210px;
+  padding-top:120px;
+  
+
+}
+.shop-now{
+  font-family: 'Brasley';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 20px;
+/* identical to box height, or 91% */
+
+text-align: center;
+color: #5B6E9D;
+padding-right:25px;
+
+}
+.shop-back{
+  margin-top:60px;
+  justify-content: center;
+  width: 224px;
+background: rgba(200, 172, 161, 0.2);
+border-radius: 8px;
+padding:10px;
+padding-left:40px;
+margin-left:150px;
+}
+.content-first{
+  background: #FFFFFF;
+opacity: 0.7;
+box-shadow: 0px 0px 4px 0px #00000033;
+
+border-radius: 20px;
+margin-top:50px;
+padding:20px;
+}
+.footer-color{
+  display: flex;
+  background: #6D8ABB;
+  ;
+  height: 210px;
+  width: 100%;
+  margin-top:60px;
+}
+.align-data{
+  display: flex;
+  flex-direction: column;
+}
+.data{
+  margin-left:-80px;
+}
+
+.card-head{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+
+}
+.card-head-data{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #6B7280;
+}
+.head-paragraph{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #6B7280;
+
+}
+.companyname{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+width:100%;
+margin-bottom: -70px;
+
+}
+.copyright{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+letter-spacing: -0.204545px;
+
+color: #F3F7FA;
+
+mix-blend-mode: normal;
+}
+.footer-first{
+  padding-top:38px ;
+  padding-left: 33px;
+}
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:60px;
+  
+}
+.content{
+  display: flex;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.parent-nav{
+  display: flex;
+  flex-direction: column;
+}
+.changeable{
+
+  margin-left:100px;
+
+}
+.home-f{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+
+  
+}
+.stars{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:40px;
+}
+.star-1{
+  padding:20px;
 }
