@@ -208,27 +208,27 @@ color: #4F433F;
  .box-block {
     background: rgba(200, 172, 161, 0.26);
     border-radius: 8px;
-    width: 90%;
+    width: 80%;
     height: 143px;
     border-radius: 8px;
     display: flex;
     margin-left: 0px;
   }
   .box-1{
-    width: 25%;
+    width: 23%;
     height: 104px;
     margin-top: 20px;
     margin-left: 20px
   }
   .box-2 {
-    width: 25%;
+    width: 23%;
     height: 104px;
     margin-top: 20px;
     margin-left: 20px
   }
   
   .box-3 {
-    width: 25%;
+    width: 23%;
     height: 104px;
     margin-top: 20px;
     margin-left: 20px
@@ -390,12 +390,12 @@ color: #4F433F;
  display: flex;
  
  margin-left:-114px;
- margin-bottom:130px;
+ margin-bottom:20px;
 }
 .slide-right{
   display: flex;
  margin-right:-114px;
- margin-bottom:130px;
+ margin-bottom:20px;
 
 }
 
@@ -451,7 +451,7 @@ padding-bottom: 50px;;
   background: rgba(200, 172, 161, 0.2);
   border-radius: 8px;
   margin-top:55px;
-  width:70%;
+  width:30%;
   height:28%;
   font-family: 'Brasley';
   font-style: normal;
@@ -459,9 +459,9 @@ padding-bottom: 50px;;
   font-size: 32px;
   line-height: 20px;
   color: #5B6E9D;
-  margin-bottom:44px;
-  padding:40px;
- 
+  /* margin-bottom:44px; */
+  padding:50px;
+  margin-left:365px;
 }
 
 
@@ -496,3 +496,94 @@ margin-top:40px;
 z-index: 80;
 }
 
+.main-block {
+  display: flex;
+  height: 499px;
+  background: #ffff;
+  background: #F4EEEC;
+  border-radius: 8px;
+  margin-top: 103px;
+}
+
+.right-one {
+  display: flex;
+  flex-direction: column;
+  height: 239px;
+  margin-top: 103px;
+  background: #F4EEEC;
+  border-radius: 8px;
+}
+
+.right-second {
+  display: flex;
+  height: 247px;
+  margin-top: 10px;
+  background: #F4EEEC;
+  border-radius: 8px;
+}
+
+.sale-block {
+  margin-left: 53px;
+  margin-top: 33px;
+  width: 184px;
+  height: 182px;
+  border: 8px solid #7287BB;
+}
+
+.big-sale {
+  padding: 20px;
+  margin-top: 58px;
+  height: 122px;
+  margin-left: -112px;
+  border-radius: 8px;
+  /* background-image: url(images/boc.png); */
+  background: #F4EEEC;
+  border-radius: 8px;
+}
+
+.sale {
+  font-family: 'Brasley';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #2F2649;
+  margin-top: 10px;
+  margin-left: -8px;
+}
+
+.set {
+  margin-top: 230px;
+  height: 230px;
+  width: 300px;
+  margin-left: -162px;
+}
+
+.max {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bag-image{
+  display:flex;
+
+}
+.testimonials{
+  justify-content: center;
+  padding-top:60px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #000000;
+}
+.main-right{
+  display: flexbox;
+  flex-direction: column;
+}
