@@ -6,164 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="{{asset('assets/style.css')}}"    rel='stylesheet'>
+
     <title>CV one</title>
 </head>
-<style>
-    .shadow-effect{
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
-
-    }
-    card{
-        display:flex;
-        justify-content: center;
-        background-color: #ffff;
-
-    }
-    .preview-column{
-        display: flex;
-        flex-direction: column;
-        background: #78A060;
-        height:1340px;
-        width:72%;
-    
-        margin-left:80px;
-    }
-    .preview-column-right{
-        display: flex;
-        flex-direction: column;
-        background:#ffff;
-        height:1340px;
-        width:72%;
-   
-    
-        margin-left:10px;
-    }
-    .avatar{
-        display: flex;
-        justify-content: center;
-        padding-top:130px;
-    }
-    .content{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 22px;
-        color: #000000;
-        margin-left:64px;
-        padding-top:80px;
-
-    }
-    .profile-description{
-        display: flex;
-        justify-content: center;
-           
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 21px;
-        width:95%;
-        color: #000000;
-        padding-left:64px;
-        padding-top:20px;
-        text-align: left;
-
-    }
-    .location-allocation{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;             
-        padding-left:64px;
-        padding-top:20px;
-
-
-    }
-    .logo-allocation{
-        display:flex;
-        flex-direction: column;        
-    }
-    .alignment{
-        padding:12px;    
-    }
-    .address-data{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 590;
-        font-size: 16px;
-        line-height: 47px;
-        padding-top:2px;
-        color: #000000;
-        
-    }
-    .personal-data{
-        margin-right: 250px;
-    }
-    .skill-control{
-        display: flex;
-        flex-direction: column;
-        padding-left: 64px;
-        padding-top:32px;
-    }
-    h4{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 650;
-        font-size: 24px;
-        line-height: 22px;
-        /* identical to box height */
-        padding-bottom:10px;
-
-        color: #000000;
-
-    }
-    span{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 550;
-        font-size: 18px;
-        line-height: 32px;
-        /* identical to box height */
-        word-spacing: 1px;
-        letter-spacing: 0.5px;
-        
-        color: #000000;
-
-    }
-  .second-start{
-    padding-top:475px;
-  }
-  .paragraph-alignment{
-    margin-bottom:-7px;
-  }
-.name-data{
-    margin-top:70px;
-    margin-left:466px;
-    color:#FFFFFF;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-line-height: 42px;
-
-color: #FFFFFF;
-
-}
-.name-data-two{
-    margin-left:476px;
-    font-family: 'Inter';
-    font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFFFFF;
-
-
-}
-        
- 
-</style>
 <body>
    <card>
 
@@ -174,7 +20,7 @@ color: #FFFFFF;
                         <div class="preview-column">
 
                             <div class="avatar">
-                            <img src="{{asset('assets/images/avatar.png')}}" alt="profile Pic" height="350" width="350" style="z-index:1;margin-top:-30px;">
+                            <img src="{{asset('assets/images/avatar.png')}}" alt="profile Pic" class="avatar-img" style="z-index:1;margin-top:-30px;">
                             </div>    
               
                             <div class="content">
@@ -238,17 +84,17 @@ color: #FFFFFF;
                       <div class="detail-review">
                         <div class="skill-control">
                             <div><h4>Education</h4></div>
-                                <div> <span>Bachelor Degree</span><span>(years)</span></div>
+                                <div> <span class="becholor">Bachelor Degree</span><span class="years">(years)</span></div>
                                 <div><p>Name of university</p></div>
-                                    <div><span> Bachelor Degree</span><span>(years)</span></div>
+                                    <div><span class="becholor"> Bachelor Degree</span><span class="years">(years)</span></div>
                                     <div><p>Name of university</p></div>
 
                          </div>
                          <div class="skill-control">
                             <div><h4>Work Experience </h4></div>
-                                <div> <span>Junior UI   Designer</span><span>(years)</span></div>
+                                <div> <span class="becholor">Junior UI Designer</span><span class="years">(years)</span></div>
                                 <div><p>Name of company</p></div>
-                                    <div><span> Senior UI designer</span><span>(years)</span></div>
+                                    <div><span class="becholor"> Senior UI designer</span><span class="years">(years)</span></div>
                                     <div><p>Name of company</p></div>
 
                            
@@ -281,7 +127,7 @@ color: #FFFFFF;
 
 <div class="container-fluid">
     <div class="row" style="height:270px;width:102.4%;background: #78A060;margin-top:-1200px;z-index:1;">
-    <div>
+    <div class="name-config">
         <h1  class="name-data">Your  Name</h1>
         <h2  class="name-data-two">Designation</h2>
     </div>
