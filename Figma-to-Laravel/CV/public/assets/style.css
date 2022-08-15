@@ -8,7 +8,7 @@ card{
     background-color: #ffff;
 
 }
-.preview-column{
+.preview-column-right {
     display: flex;
     flex-direction: column;
     background: #78A060;
@@ -17,7 +17,7 @@ card{
 
     margin-left:80px;
 }
-.preview-column-right{
+.preview-column{
     display: flex;
     flex-direction: column;
     background:#ffff;
