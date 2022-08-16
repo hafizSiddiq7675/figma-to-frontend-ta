@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/cv', function () {
     return view('cv.index');
 });
+Route::get('/cv-second', function () {
+    return view('cv.index-second');
+});
+Route::get('/cv-three', function () {
+    return view('cv.index');
+});
