@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/cv-five', function () {
+    return view('cv.index-five-cv');
+});
 Route::get('/cv-fourth', function () {
-    return view('cv.index');
+    return view('cv.index-four-cv');
+});
+Route::get('/cv-six', function () {
+    return view('cv.index-six-cv');
 });
