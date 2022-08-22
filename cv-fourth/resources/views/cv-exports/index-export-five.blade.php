@@ -10,11 +10,11 @@
     <link href="{{asset('assets/style.css')}}" rel="stylesheet"> 
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>five-CV</title>
+    <title>Fourth-CV</title>
 </head>
 <body>
-    <div class="card">
-    <div class="container">
+    {{--  <div class="card">  --}}
+    <div class="container-fluid">
               <div class="row">
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12" style="background-color:#ffff;height:320px;">
                 <div class="avatar">
@@ -32,7 +32,7 @@
 
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12" style="background-color:#FFE9E9;height:700px;">
                 <div class="alignment-side">
