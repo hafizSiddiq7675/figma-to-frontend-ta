@@ -15,6 +15,9 @@ use App\Http\Controllers\CvExportController;
 |
 */
 
+
+// SIMPLE CV's
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -31,8 +34,15 @@ Route::get('/cv-six', function () {
 Route::get('/cv-seven', function () {
     return view('cv.index-seven-cv');
 });
+Route::get('/cv-eight', function () {
+    return view('cv.index-eight-cv');
+});
+Route::get('/cv-nine', function () {
+    return view('cv.index-nine-cv');
+});
 
 
+// EXPORT CV's
 
 
 Route::get('/cv-export-4', function () {
@@ -48,6 +58,13 @@ Route::get('/cv-export-6', function () {
 Route::get('/cv-export-7', function () {
     return view('cv-exports.index-export-seven');
 });
+
+
+
+
+// DOMPDF template
+
+
 
 Route::get('/cv-export-four', [CvExportController::class, 'cvFourDownload']);
 Route::get('/cv-export-five', [CvExportController::class, 'cvFiveDownload']);
