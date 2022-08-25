@@ -1,0 +1,200 @@
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    font-family: Calibri;
+    font-size: 22px;
+    text-align: center;
+}
+
+.one {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Calibri;
+    font-size: 22px;
+    margin-left: 40%;
+    margin-top: -120px;
+}
+
+table {
+    width: 170%;
+    font-family: Calibri;
+}
+
+
+/* th {
+    border: 0.5px solid black;
+} */
+
+.two {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Calibri;
+    font-size: 22px;
+    margin-left: 30%;
+    width: 300px;
+}
+
+.last {
+    font-size: 20px;
+    font-family: Calibri;
+    text-decoration: solid;
+}
+
+th {
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+.three {
+    text-align: center;
+}
+
+.four {
+    border-left: 1px white;
+    border-right: 1px white;
+    border-bottom: 1px white;
+}
+
+td.five {
+    border-left: 1px solid black;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    font-family: calibri;
+    border-bottom: 1px solid black;
+}
+
+.six {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Calibri;
+    font-size: 22px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+.six td {
+    text-align: center;
+    width: 5%;
+}
+
+.seven {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Calibri;
+    font-size: 22px;
+    margin-left: 40%;
+}
+
+.last {
+    font-family: calibri;
+    font-size: 22px;
+    margin-left: 90px;
+    /* padding-bottom: 90px; */
+}
+
+@media only screen and (max-width: 600px) {
+    .child {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Calibri;
+        font-size: 56px;
+        text-align: center;
+    }
+    .one {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Calibri;
+        font-size: 22px;
+        /* margin-left: 80%; */
+        margin-top: -120px;
+    }
+    table {
+        width: 170%;
+        font-family: Calibri;
+    }
+    /* th {
+    border: 0.5px solid black;
+} */
+    .two {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Calibri;
+        font-size: 22px;
+        margin-left: 0;
+    }
+    .last {
+        font-size: 20px;
+        font-family: Calibri;
+        text-decoration: solid;
+    }
+    th {
+        border: 1px solid black;
+    }
+    table td {
+        border: 1px solid black;
+    }
+    table {
+        border-spacing: 0px;
+    }
+    table td {
+        border: 1px solid black;
+    }
+    .three {
+        text-align: center;
+    }
+    .four {
+        border-left: 1px white;
+        border-right: 1px white;
+        border-bottom: 1px white;
+    }
+    td.five {
+        border-left: 1px solid black;
+        text-align: center;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        font-family: calibri;
+        border-bottom: 1px solid black;
+    }
+    .six {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Calibri;
+        font-size: 22px;
+        width: 30%;
+    }
+    .six td {
+        text-align: center;
+        width: 5%;
+    }
+    .seven {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Calibri;
+        font-size: 22px;
+        margin-left: 40%;
+    }
+    .last {
+        font-family:
+    }
+}
+
+.up {
+    border-radius: 4;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    -ms-border-radius: 4;
+    -o-border-radius: 4;
+}
