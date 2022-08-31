@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color:#08001A;
+}
+
+/* <img src="{{ asset('assets/images/avatar.png') }}" alt="profile picture" width="230" height="230" > */
+.text-head{
+        padding-left:60px;
+    padding-top:15px;
+    
+}
+
+
+.text-head p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #8F60FF;
+}
+.shadow {
+  background-image: url('./images/shadow.png');
+
+}
+.crypto-main{
+    /* font-family: 'IvyMode'; */
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 100px;
+/* or 108px */
+
+text-align: center;
+
+color: #F7F7F7;
+padding-top:100px;
+padding-bottom:200px;
+background-image: url('./images/blur back.png');
+
+}
+@import "./fonts/IvyMode";
+@font-face {
+        font-family: 'IvyMode';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./fonts/IvyMode');
+
+}
+
+
+.div1-image-box{
+  background-color:  #FEE69A;
+  border-radius: 20px;
+  /* margin-top:-20px; */
+  width: 246px;
+  height: 226px;
+  text-align: center;
+  margin:5px;
+
+}
+
+.bg-rad{
+    background-color: #ffff;
+}
+
+
+.div1{
+    border-radius: 20px;
+    margin-left: -7px;
+   
+
+}
+.div2{
+    border-radius: 25px;
+    margin-left:18px;
+
+
+}
+.div3{
+    border-radius: 20px;
+    margin-left:18px;
+
+
+}
+.div4{
+    border-radius: 20px;
+    margin-left:18px;
+}
+.div5{
+    border-radius: 20px;
+    margin-left:10px;
+
+}
+
+.div2-image-box{
+    background: linear-gradient(134.49deg, #BEA9ED 2.8%, #BCD4FA 92.19%);
+    border-radius: 20px;
+    /* margin-top:-20px; */
+    width: 246px;
+    height: 226px;
+    padding:30px;    
+    margin:5px;
+  }
+
+
+
+  .div3-image-box{
+    background: rgba(254, 201, 221, 1);
+    border-radius: 20px;
+    /* margin-top:-20px; */
+    width: 246px;
+    height: 226px;
+    text-align: center;
+    margin:5px;
+  }
+
+  .div4-image-box{
+    background: rgba(239, 206, 255, 1);
+    border-radius: 20px;
+    /* margin-top:-20px; */
+    width: 246px;
+    height: 226px;
+    text-align: center;
+    margin:5px;
+  
+  }
+  .div5-image-box{
+    background: rgba(218, 211, 254, 1);
+    border-radius: 20px;
+    /* margin-top:-20px; */
+     width: 246px;
+    height: 226px;
+    text-align: center;
+    margin:5px;
+  }
+  .create-account{
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 33px */
+
+
+color: #2F2D2D;
+
+  }
+  .task-p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+/* line-height: 150%; */
+/* or 27px */
+
+
+color: #6B7280;
+  }
+  .create-set{
+    padding:0px 15px;
+    padding-top:30px;
+  
+    
+  }
+  .create-p{
+    padding:0px 20px;
+    padding-bottom:30px;
+    text-align: left;
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+
+    .parent-div{
+      display: flex;
+      flex-direction: row !important;
+      justify-content: space-between;
+      padding-bottom: 90px;
+      
+    
+  }
+
+  }
+  @media only screen and (min-width: 330px) {
+
+
+
+    .parent-div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  }
