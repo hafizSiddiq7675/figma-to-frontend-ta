@@ -1,0 +1,292 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+.avatar{
+    display:flex;
+justify-content: center;
+margin-top:-95px;
+}
+
+
+.purple-avatar{
+    border-radius: 50%;
+    border:14px solid #EAE6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+
+}
+
+
+.your-name{
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #000000;
+
+}
+
+.designation{
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #565252;
+    
+}
+
+.profile{
+    display: flex;
+    justify-content: center; 
+}
+
+.parent-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+.image-block {
+    display: flex;
+    flex-direction: column;
+    line-height: 33px;
+    justify-content: right;
+    margin-left:52px;
+
+
+
+}
+.data-block {
+    display: flex;
+    flex-direction: column;
+    line-height: 33px;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top:3px;
+    color: #5B5959;
+    margin-left:52px;
+
+
+}
+h2{
+    display: flex;
+    justify-content: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    padding-left:52px;
+    color: #000000;
+
+}
+
+.skills-box{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left:52px;
+    line-height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* identical to box height */
+
+
+    color: #5B5959;
+
+}
+
+.skill-block{
+    display: flex;
+    flex-direction: row;
+    justify-content:left ;
+}
+
+
+
+.skills-box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top:1px;
+    padding-left:52px;
+    line-height: 41px;}
+
+
+
+
+.slider{
+    color: #F5F5F5;}
+
+
+   .left-side{
+    margin-top:130px;
+    padding-left:50px;
+   }
+
+
+ h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+ }
+.profile-paragraph{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    width: 78%;
+    margin-top:25px;
+    margin-left:5px;
+    color: #5B5959;
+    padding-bottom:30px;
+
+}
+
+    .degree-name{
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+        color: #565252;
+    }
+
+   .degree-year-one{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    margin-left:33px;
+    color: #565252;
+   }
+
+  .profile-description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    width: 78%;
+    margin-top:25px;
+    margin-left:5px;
+    color: #5B5959;
+    padding-bottom:30px;
+    height: 54px;
+
+
+  }
+
+
+  .university-data{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    padding-left:3px;
+    color: #565252;
+
+  }
+
+
+.degree-div{
+    padding-top:23px;
+    padding-bottom:23px;
+
+}
+
+
+
+.degree-year-one{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    margin-left:119px;
+    color: #565252;
+   }
+
+   .degree-year-two{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    margin-left:138px;
+    color: #565252;
+   }
+
+
+   .degree-year-three{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    margin-left:113px;
+    color: #565252;
+   }
+
+
+
+   .degree-year-four{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    margin-left:33px;
+    color: #565252;
+   }
+
+
+@media only screen and (min-width: 1200px) {
+ 
+    .card{
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+              width: 1000px !important;
+        margin-left:170px !important;
+       margin-top:40px !important;
+       margin-bottom:40px !important;
+
+    }
+}
+
+
+@media only screen and (min-width: 330px) {
+    .card{
+        width:470px;
+        margin:10px;
+
+
+    }
+}
