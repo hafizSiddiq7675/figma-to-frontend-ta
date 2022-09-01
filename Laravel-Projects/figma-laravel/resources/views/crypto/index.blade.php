@@ -213,7 +213,7 @@
 
 
 
-<div class="container-fluid">
+<div class="container">
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
        
@@ -238,7 +238,7 @@
                  <img src="{{ asset('assets/images/linegap.png') }}" height="" width="" class=""> 
              </div>
              <div class="paragraph-div">                 
-                <div> <img src="{{ asset('assets/images/redarrow.png') }}" height="" width="" class="img-cloud"> </div>
+                <div style="padding-top:16px;"> <img src="{{ asset('assets/images/redarrow.png') }}" height="" width="" class="img-cloud"> </div>
                 <div> <p class="step-p">Step 1</p></div>
                 <div><p class="download-p">Download</p></div>
                 <div><p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
@@ -267,16 +267,37 @@
 
 <div class="container">
     <div class="row moneymen">
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="trade-div">
                 <h3 class="anywhere-head">Trade Anywhere</h3>
                 <p class="term-content">Anytime, Anywhere. Trade crypto on your terms</p>
              </div>
-        </div>
+
+             <div class="playlist-d">
+                <div>               
+                    <img src="{{ asset('assets/images/A.png') }}" > 
+                </div>
+                <div><p class="download-f">Download from</p><p class="download-site">Apple Store</p></div>
+             </div>
+             <div class="playlist-d">
+                <div>               
+                    <img src="{{ asset('assets/images/play.png') }}" > 
+                </div>
+                <div><p class="download-f">Download from</p><p class="download-site">Google Play</p></div>
+             </div>
+    
+             <div class="playlist-d">
+                <div>               
+                    <img src="{{ asset('assets/images/os.png') }}"  > 
+                </div>
+                <div><p class="download-f">Download from</p><p class="download-site">Mac OS</p></div>
+             </div>
+    
+            </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
             
-            <div>
-                <img src="{{ asset('assets/images/moneymen.png') }}" height="" width="" > 
+            <div class="moneymen-d">
+                <img src="{{ asset('assets/images/moneymen.png') }}" > 
 
             </div>
         </div>
@@ -286,7 +307,134 @@
 
 
 
+<div class="container">
+<div class="row content-gap">
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
+        <div><p class="become-a">Become a crypto trader <br/>in seconds</p>
+            <p class="anywhere-p">Anytime, Anywhere. Trade crypto on your terms</p>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
 
+
+</div>
+
+</div>
+
+
+
+<div class="container">
+    <div class="row gap">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+          
+          
+            <div class="crypto-trader">
+                <div class="bx-crypto">
+                   <div> <img src="{{ asset('assets/images/persons.png') }}"  class="crypto-img"> </div>
+                   <div> <p class="buy-sell">Buy and Sell Crypto</p></div>
+                   <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
+                   <div class="but-cryp"><p class="">Buy Crypto</p></div>
+                </div>
+                <div class="bx-crypto">
+                    <div> <img src="{{ asset('assets/images/trade.png') }}" class="crypto-img" > </div>
+                    <div> <p class="buy-sell">Trade Asstes</p></div>
+                    <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
+                    <div class="but-cryp"><p class="">Trade Now</p></div>
+                 </div>
+                 <div class="bx-crypto">
+                    <div> <img src="{{ asset('assets/images/learncrypto.png') }}" class="crypto-img"> </div>
+                    <div> <p class="buy-sell">Learn Crypto</p></div>
+                    <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
+                    <div class="but-cryp"><p class="">Learn Now</p></div>
+                 </div>
+
+
+              
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 ">
+          <div class="button-contact">    
+                <p>Contact Us</p>
+            </div>   
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row test-row">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 ">
+          <div class="">    
+                <p class="testimonials">Testimonials </p>
+            </div>   
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card card-1">
+          <h3>Lorem Ipsum</h3>
+          <p>Leave Zoom links behind. Move 
+            from room to room in one click, 
+            and keep track of open rooms 
+            in the room list.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-2">
+          <h3>Lorem Ipsum</h3>
+          <p>Leave Zoom links behind. Move 
+            from room to room in one click, 
+            and keep track of open rooms 
+            in the room list..</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-3">
+          <h3>Lorem Ipsum</h3>
+          <p>Leave Zoom links behind. Move 
+            from room to room in one click, 
+            and keep track of open rooms 
+            in the room list..</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
