@@ -265,20 +265,21 @@
 
 
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 "></div>
-        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 ">
+<div class="container">
+    <div class="row moneymen">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+            <div class="trade-div">
+                <h3 class="anywhere-head">Trade Anywhere</h3>
+                <p class="term-content">Anytime, Anywhere. Trade crypto on your terms</p>
+             </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+            
             <div>
-                <div></div>
-                <div></div>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/linegap.png') }}" height="" width="" class=""> 
+                <img src="{{ asset('assets/images/moneymen.png') }}" height="" width="" > 
 
             </div>
         </div>
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 "></div>
 
     </div>
 </div>
