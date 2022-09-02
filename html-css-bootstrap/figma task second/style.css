@@ -208,7 +208,7 @@ color: #4F433F;
  .box-block {
     background: rgba(200, 172, 161, 0.26);
     border-radius: 8px;
-    width: 80%;
+    width: 68%;
     height: 143px;
     border-radius: 8px;
     display: flex;
@@ -244,10 +244,13 @@ color: #4F433F;
     display: flex;
     width: 5%;
     height: 60px;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 20px;
     align-items: center;
     
+  }
+  .box{
+    margin-bottom:5px; 
   }
   .navbar-nav{
     display: flex;
