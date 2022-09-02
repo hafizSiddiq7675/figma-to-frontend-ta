@@ -362,13 +362,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
-            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 ">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
           <div class="button-contact">    
                 <p>Contact Us</p>
             </div>   
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
 
     </div>
 </div>
@@ -379,15 +379,15 @@
 
 
 
-<div class="container">
+<div class="container-fluid">
     <div class="row test-row">
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
-            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 ">
-          <div class="">    
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
+          <div>    
                 <p class="testimonials">Testimonials </p>
             </div>   
         </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 "></div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
 
     </div>
 </div>
@@ -404,49 +404,125 @@
 
 
 
-<div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card card-1">
-          <h3>Lorem Ipsum</h3>
-          <p>Leave Zoom links behind. Move 
-            from room to room in one click, 
-            and keep track of open rooms 
-            in the room list.</p>
+
+
+
+
+
+  <div class="container">
+    <div class="row test-row-second">
+        
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
+            <div class="card">
+            <div class="sub-row">
+                <div>
+                    <img src="{{ asset('assets/images/profile.png') }}" class="profile-img">
+         
+                 </div>
+                 <div class="head-img">
+                     <div>
+                         <p class="card-head">Lorem Ipsum</p>
+                         <p class="card-description">Lorem Ipsum</p>
+                     </div> 
+                 </div>
+                 <div>
+                     <img src="{{ asset('assets/images/arrows.png') }}" class="arrow-img">
+         
+                 </div> 
+            </div>
+            <div class="">
+                <div> <p class="para-content" >Leave Zoom links behind. Move 
+                    from room to room in one click, 
+                    and keep track of open rooms 
+                    in the room list.</p></div>
+            </div>
+            
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-2">
-          <h3>Lorem Ipsum</h3>
-          <p>Leave Zoom links behind. Move 
-            from room to room in one click, 
-            and keep track of open rooms 
-            in the room list..</p>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
+            <div class="card">
+            <div class="sub-row">
+                <div>
+                    <img src="{{ asset('assets/images/profile.png') }}" class="profile-img">
+         
+                 </div>
+                 <div class="head-img">
+                     <div>
+                         <p class="card-head">Lorem Ipsum</p>
+                         <p class="card-description">Lorem Ipsum</p>
+                     </div> 
+                 </div>
+                 <div>
+                     <img src="{{ asset('assets/images/arrows.png') }}" class="arrow-img">
+         
+                 </div> 
+            </div>
+            <div class="content-card">
+                <div> <p class="para-content" >Leave Zoom links behind. Move 
+                    from room to room in one click, 
+                    and keep track of open rooms 
+                    in the room list.</p></div>
+            </div>
+            
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-3">
-          <h3>Lorem Ipsum</h3>
-          <p>Leave Zoom links behind. Move 
-            from room to room in one click, 
-            and keep track of open rooms 
-            in the room list..</p>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
+            <div class="card">
+            <div class="sub-row">
+                <div>
+                    <img src="{{ asset('assets/images/profile.png') }}" class="profile-img">
+         
+                 </div>
+                 <div class="head-img">
+                     <div>
+                         <p class="card-head">Lorem Ipsum</p>
+                         <p class="card-description">Lorem Ipsum</p>
+                     </div> 
+                 </div>
+                 <div>
+                     <img src="{{ asset('assets/images/arrows.png') }}" class="arrow-img">
+         
+                 </div> 
+            </div>
+            <div class="content-card">
+                <div> <p class="para-content" >Leave Zoom links behind. Move 
+                    from room to room in one click, 
+                    and keep track of open rooms 
+                    in the room list.</p></div>
+            </div>
+            
+            </div>
         </div>
-      </div>
+
+
     </div>
   </div>
 
 
 
-
-
-
-
-
-
-
-
-
+  <footer>
+    <div class="row test-row-second">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+           <div class="footer-subrow">
+            <div>
+            <p class="p-first">Ready to get started?</p>
+            <p class="p-second">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <div class="button-border">  <p class="get-started">Get started</p></div>
+           </div>
+           <div>
+           <div class="navigation"> <p>Navigation</p></div>
+           <div class="email-market"> <p>Email Marketing</p></div>
+           <div class="email-market"> <p>Campaigns</p></div>
+           <div class="email-market">  <p>Branding</p></div>
+           <div class="email-market">  <p>Offline</p></div>
+           </div>
+           </div>
+        </div>
+    </div>
+  </footer>
+</div>
 
 
 
@@ -463,8 +539,8 @@
 
 
 
-{{--  
-<script>
+
+{{--  <script>
 
     var els = document.getElementsByClassName("bg-rad");
     
