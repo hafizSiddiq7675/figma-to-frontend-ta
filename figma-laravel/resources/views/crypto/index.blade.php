@@ -55,7 +55,11 @@
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 header" >
         <div class="parent-div">
           
-            <div class="div1 bg-rad">
+
+            <div class="div1-image-box only-img">
+                <img src="{{ asset('assets/images/div1.png') }}" >  
+            </div>
+            <div class="div1 bg-rad" style="display: none;">
                 <div class="div1-image-box card-img">
                     <img src="{{ asset('assets/images/div1.png') }}" > 
                     
@@ -124,11 +128,10 @@
 
 <div class="container">
 <div class="row second-section">
-<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12 " style="background-color:"></div>
 
-    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12"  style="background-color: ">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
       
-        <div class="section-div">
+        <div class="section-div" >
             <div class="data-block">
                 <div>
                     <img src="{{ asset('assets/images/bitcoin.png') }}" > 
@@ -183,7 +186,6 @@
 
         </div>
     </div>
-    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12 " style="background-color:"></div>
 
 </div>
 </div>
@@ -192,7 +194,7 @@
 
 
 <div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 " style="background-color:">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 " >
         <div class=""><p class="work">How it Works <p></div>
     </div>
 
@@ -230,8 +232,8 @@
 
             <div class="paragraph-div">                 
                 <div> <img src="{{ asset('assets/images/vault.png') }}" height="" width="" class="img-cloud"> </div>
-                <div> <p class="step-p">Step 1</p></div>
-                <div><p class="download-p">Download</p></div>
+                <div> <p class="step-p">Step 2</p></div>
+                <div><p class="download-p">Connect Wallet</p></div>
                 <div><p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
              </div>
              <div class="linegap-div">               
@@ -239,8 +241,8 @@
              </div>
              <div class="paragraph-div">                 
                 <div style="padding-top:16px;"> <img src="{{ asset('assets/images/redarrow.png') }}" height="" width="" class="img-cloud"> </div>
-                <div> <p class="step-p">Step 1</p></div>
-                <div><p class="download-p">Download</p></div>
+                <div> <p class="step-p">Step 3</p></div>
+                <div><p class="download-p">Start Trading</p></div>
                 <div><p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
              </div>
              <div class="linegap-div">               
@@ -248,8 +250,8 @@
              </div>
              <div class="paragraph-div">                 
                 <div> <img src="{{ asset('assets/images/money.png') }}" height="" width="" class="img-cloud"> </div>
-                <div> <p class="step-p">Step 1</p></div>
-                <div><p class="download-p">Download</p></div>
+                <div> <p class="step-p">Step 4</p></div>
+                <div><p class="download-p">Earn Money</p></div>
                 <div><p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
              </div>
            
@@ -309,13 +311,12 @@
 
 <div class="container">
 <div class="row content-gap">
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
-        <div><p class="become-a">Become a crypto trader <br/>in seconds</p>
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+        <div class="becomes">
+            <p class="become-a">Become a crypto trader <br/>in seconds</p>
             <p class="anywhere-p">Anytime, Anywhere. Trade crypto on your terms</p>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 "></div>
 
 
 </div>
@@ -534,25 +535,26 @@
 
 
 
+<script src="{{asset('js/jquery.js')}}"></script>
 
 
 
 
+<script>
+    $(".only-img").hover(function(){
+        $(this).hide();
+        $(".div1").show();
+        $(".div1").css("width","500px;");
+        $(".div1").css("height","1000px;");
 
+    });
 
-{{--  <script>
+    $(".div1").mouseleave(function(){
+        $(".div1").hide();
+        $(".only-img").show();
+    });
 
-    var els = document.getElementsByClassName("bg-rad");
-    
-    for(let i =0; i < els.length; i++){
-        els[i].style.display = 'none';
-    }
-    var img = document.getElementsByClassName("card-img");
-    for(let i =0; i < img.length; i++){
-        img[i].style.display='flex';
-    }
-</script>  --}}
-
+</script>
 
 
 
