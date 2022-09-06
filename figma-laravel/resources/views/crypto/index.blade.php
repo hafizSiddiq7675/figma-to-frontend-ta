@@ -21,7 +21,7 @@
 
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-main">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 header" >
         <div class="text-head"><p>CryptoPayments</p></div>
@@ -52,7 +52,7 @@
 
 
 <div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 header" >
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 header1" >
         <div class="parent-div">
           
 
@@ -66,12 +66,18 @@
                 </div>
                 <div class="create-text">
                 <div class="create-set"><p class="create-account">Create your Account</p></div>
-                    <div class="create-p"> <p class="task-p">Easy Set up of your account <br/>with marketplace CryptoPayments</p></div>
+                    <div class="create-p"> <p class="task-p">Easy Set xs3up of your account <br/>with marketplace CryptoPayments</p></div>
                 </div>
             </div>
 
 
-            <div class="div2 bg-rad">
+
+            <div class="div2-image-box  only-img1" >
+                <img src="{{ asset('assets/images/divtwo.png') }}" height="170" width="150"> 
+                
+            </div>
+
+            <div class="div2 bg-rad" style="display: none;">
                 <div class="div2-image-box card-img">
                     <img src="{{ asset('assets/images/divtwo.png') }}" height="170" width="150"> 
                     
@@ -82,7 +88,16 @@
                 </div>
             </div>
 
-            <div class="div3 bg-rad">
+
+
+
+
+            
+            <div class="div3-image-box only-img2">
+                <img src="{{ asset('assets/images/div3.png') }}"> 
+                
+            </div>
+            <div class="div3 bg-rad"  style="display: none;">
                 <div class="div3-image-box card-img">
                     <img src="{{ asset('assets/images/div3.png') }}"> 
                     
@@ -95,7 +110,16 @@
 
 
 
-            <div class="div4 bg-rad">
+
+
+
+
+
+            <div class="div4-image-box only-img3">
+                <img src="{{ asset('assets/images/div4.png') }}"> 
+                
+            </div>
+            <div class="div4 bg-rad"  style="display: none;">
                 <div class="div4-image-box card-img">
                     <img src="{{ asset('assets/images/div4.png') }}"> 
                     
@@ -107,7 +131,14 @@
             </div>
 
 
-            <div class="div5 bg-rad">
+
+
+
+            <div class="div5-image-box only-img4" >
+                <img src="{{ asset('assets/images/div5.png') }}"> 
+                
+            </div>
+            <div class="div5 bg-rad" style="display: none;">
                 <div class="div5-image-box card-img">
                     <img src="{{ asset('assets/images/div5.png') }}"> 
                     
@@ -119,12 +150,17 @@
             </div>    
 
 
+
         </div>   
 
 
 
     </div>
 </div>
+
+
+
+
 
 <div class="container">
 <div class="row second-section">
@@ -222,7 +258,7 @@
         <div class="third-div-block">
             <div class="paragraph-div">                 
                <div> <img src="{{ asset('assets/images/cloud.png') }}" height="" width="" class="img-cloud"> </div>
-               <div> <p class="step-p">Step 1</p></div>
+               <div> <p class="step-p2">Step 1</p></div>
                <div><p class="download-p">Download</p></div>
                <div><p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
             </div>
@@ -266,7 +302,7 @@
 
 
 
-
+<div class="blue-shadow">
 <div class="container">
     <div class="row moneymen">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
@@ -410,6 +446,7 @@
 
 
 
+
   <div class="container">
     <div class="row test-row-second">
         
@@ -499,16 +536,22 @@
 
 
     </div>
+
+
+
+
   </div>
 
 
 
-  <footer>
-    <div class="row test-row-second">
+  <footer class="blue-shadow-2">
+    
+    <div class="row test-row-second ">
+      
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-           <div class="footer-subrow">
+           <div class="footer-subrow ">
             <div>
-            <p class="p-first">Ready to get started?</p>
+            <p class="p-first ">Ready to get started?</p>
             <p class="p-second">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             <div class="button-border">  <p class="get-started">Get started</p></div>
            </div>
@@ -523,7 +566,7 @@
         </div>
     </div>
   </footer>
-</div>
+
 
 
 
@@ -541,18 +584,98 @@
 
 
 <script>
+
+
     $(".only-img").hover(function(){
         $(this).hide();
         $(".div1").show();
-        $(".div1").css("width","500px;");
-        $(".div1").css("height","1000px;");
-
+        $(".only-img4").css("margin-right", "-40px")
     });
+
+  
 
     $(".div1").mouseleave(function(){
         $(".div1").hide();
         $(".only-img").show();
+
+      
+
     });
+
+
+
+    $(".only-img1").hover(function(){
+        $(this).hide();
+        $(".div2").show();
+        $(".only-img").css("margin-left", "-40px");
+        $(".only-img4").css("margin-right", "-40px");
+
+    });
+
+    $(".div2").mouseleave(function(){
+        $(".div2").hide();
+        $(".only-img1").show();
+        $(".only-img").css("margin-left", "20px");
+        $(".only-img4").css("margin-right", "20px");
+    });
+    
+
+    $(".only-img2").hover(function(){
+        $(this).hide();
+        $(".div3").show();
+        $(".only-img").css("margin-left", "-40px");
+        $(".only-img4").css("margin-right", "-40px");
+
+
+    });
+
+    $(".div3").mouseleave(function(){
+        $(".div3").hide();
+        $(".only-img2").show();
+        $(".only-img").css("margin-left", "20px");
+        $(".only-img4").css("margin-right", "20px");
+    });
+
+
+
+    $(".only-img3").hover(function(){
+        $(this).hide();
+        $(".div4").show();
+        $(".only-img").css("margin-left", "-40px");
+        $(".only-img4").css("margin-right", "-40px");
+
+     
+
+    });
+
+    $(".div4").mouseleave(function(){
+        $(".div4").hide();
+        $(".only-img3").show();
+        $(".only-img").css("margin-left", "40px");
+        $(".only-img4").css("margin-right", "40px");
+    });
+
+
+    $(".only-img4").hover(function(){
+        $(this).hide();
+        $(".div5").show();
+        $(".only-img").css("margin-left", "-40px");
+
+
+    });
+
+    $(".div5").mouseleave(function(){
+        $(".div5").hide();
+        $(".only-img4").show();
+        $(".only-img").css("margin-left","20px")
+        $(".only-img").css("margin-right","20px")
+
+
+    });
+
+
+
+
 
 </script>
 
