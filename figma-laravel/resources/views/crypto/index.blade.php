@@ -168,7 +168,7 @@
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
       
         <div class="section-div" >
-            <div class="data-block">
+            <div class="h-block">
                 <div>
                     <img src="{{ asset('assets/images/bitcoin.png') }}" > 
                 </div>
@@ -252,7 +252,7 @@
 
 
 <div class="container">
-<div class="row">
+<div class="row head-5">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
        
         <div class="third-div-block">
@@ -304,8 +304,8 @@
 
 <div class="blue-shadow">
 <div class="container">
-    <div class="row moneymen">
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="row money-head">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 moneymen">
             <div class="trade-div">
                 <h3 class="anywhere-head">Trade Anywhere</h3>
                 <p class="term-content">Anytime, Anywhere. Trade crypto on your terms</p>
@@ -332,9 +332,9 @@
              </div>
     
             </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 moneymen-d">
             
-            <div class="moneymen-d">
+            <div class="">
                 <img src="{{ asset('assets/images/moneymen.png') }}" > 
 
             </div>
@@ -349,7 +349,7 @@
 <div class="row content-gap">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
         <div class="becomes">
-            <p class="become-a">Become a crypto trader <br/>in seconds</p>
+            <p class="become-a">Become a crypto trader in seconds</p>
             <p class="anywhere-p">Anytime, Anywhere. Trade crypto on your terms</p>
         </div>
     </div>
@@ -361,9 +361,9 @@
 
 
 
-<div class="container">
+{{--  <div class="container">
     <div class="row gap">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12  ">
           
           
             <div class="crypto-trader">
@@ -393,7 +393,59 @@
         </div>
 
     </div>
-</div>
+</div>  --}}
+<div class="container">
+    <div class="row test-row-second ">
+        
+        <div class="col-xl-4 col-lg-4  my-auto col-md-4 col-sm-12 col-12 crypt-top">
+ 
+                <div class="bx-crypto">
+                   <div> <img src="{{ asset('assets/images/persons.png') }}"  class="crypto-img"> </div>
+                   <div> <p class="buy-sell">Buy and Sell Crypto</p></div>
+                   <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
+                   <div class="but-cryp"><p class="">Buy Crypto</p></div>
+                </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 my-auto col-md-4 col-sm-12 col-12 ">
+            <div class="bx-crypto">
+                <div> <img src="{{ asset('assets/images/trade.png') }}" class="crypto-img" > </div>
+                <div> <p class="buy-sell">Trade Asstes</p></div>
+                <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
+                <div class="but-cryp"><p class="">Trade Now</p></div>
+             </div>
+
+
+
+
+
+
+        </div>
+
+        <div class="col-xl-4 col-lg-4 my-auto col-md-4 col-sm-12 col-12 ">
+            <div class="bx-crypto">
+                <div> <img src="{{ asset('assets/images/learncrypto.png') }}" class="crypto-img"> </div>
+                <div> <p class="buy-sell">Learn Crypto</p></div>
+                <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
+                <div class="but-cryp"><p class="">Learn Now</p></div>
+             </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -563,7 +615,7 @@
            <div class="email-market">  <p>Offline</p></div>
            </div>
            </div>
-        </div>
+        </div>~
     </div>
   </footer>
 
@@ -578,10 +630,8 @@
 
 
 
+
 <script src="{{asset('js/jquery.js')}}"></script>
-
-
-
 
 <script>
 
@@ -589,7 +639,7 @@
     $(".only-img").hover(function(){
         $(this).hide();
         $(".div1").show();
-        $(".only-img4").css("margin-right", "-40px")
+        $(".only-img4").css("margin-right", "-20px")
     });
 
   
@@ -598,7 +648,7 @@
         $(".div1").hide();
         $(".only-img").show();
 
-      
+        $(".only-img4").css("margin-right","40px")
 
     });
 
@@ -659,7 +709,7 @@
     $(".only-img4").hover(function(){
         $(this).hide();
         $(".div5").show();
-        $(".only-img").css("margin-left", "-40px");
+        $(".only-img").css("margin-left", "-20px");
 
 
     });
