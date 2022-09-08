@@ -165,10 +165,10 @@
 <div class="container">
 <div class="row second-section">
 
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"  style="padding-top:150px;">
       
         <div class="section-div" >
-            <div class="h-block">
+            <div class="data-block">
                 <div>
                     <img src="{{ asset('assets/images/bitcoin.png') }}" > 
                 </div>

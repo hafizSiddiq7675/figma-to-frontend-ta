@@ -52,8 +52,10 @@
 
 .bg-rad{
     background-color: #ffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+
     width: 285px;
-    height:500px;
+    /* height:500px; */
 
 }
 
@@ -731,7 +733,7 @@ padding-top: 13px;
 
 }
 .crypto-main{
-  /* font-family: 'IvyMode'; */
+  font-family: 'IvyMode';
 font-style: normal;
 font-weight: 700;
 font-size: 72px;
@@ -977,7 +979,7 @@ background-image: url('./images/blur back.png');
 
 }
 .crypto-main{
-  /* font-family: 'IvyMode'; */
+  font-family: 'IvyMode';
 font-style: normal;
 font-weight: 700;
 font-size: 72px;
@@ -1025,7 +1027,7 @@ background-image: url('./images/blur back.png');
   height:210px;
   margin-top:-30px;
   padding:20px;
-  margin-right: 30px;
+  margin-right: 0px;
   margin-bottom: 10px;
 }
 .become-a{
@@ -1207,7 +1209,7 @@ background-image: url('./images/blur back.png');
   display: none;
 }
 .crypto-main{
-  /* font-family: 'IvyMode'; */
+  font-family: 'IvyMode';
 font-style: normal;
 font-weight: 700;
 font-size: 44px;
