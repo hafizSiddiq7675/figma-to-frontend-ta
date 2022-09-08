@@ -361,39 +361,6 @@
 
 
 
-{{--  <div class="container">
-    <div class="row gap">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12  ">
-          
-          
-            <div class="crypto-trader">
-                <div class="bx-crypto">
-                   <div> <img src="{{ asset('assets/images/persons.png') }}"  class="crypto-img"> </div>
-                   <div> <p class="buy-sell">Buy and Sell Crypto</p></div>
-                   <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
-                   <div class="but-cryp"><p class="">Buy Crypto</p></div>
-                </div>
-                <div class="bx-crypto">
-                    <div> <img src="{{ asset('assets/images/trade.png') }}" class="crypto-img" > </div>
-                    <div> <p class="buy-sell">Trade Asstes</p></div>
-                    <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
-                    <div class="but-cryp"><p class="">Trade Now</p></div>
-                 </div>
-                 <div class="bx-crypto">
-                    <div> <img src="{{ asset('assets/images/learncrypto.png') }}" class="crypto-img"> </div>
-                    <div> <p class="buy-sell">Learn Crypto</p></div>
-                    <div> <p class="content-sell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p></div>
-                    <div class="but-cryp"><p class="">Learn Now</p></div>
-                 </div>
-
-
-              
-                
-            </div>
-        </div>
-
-    </div>
-</div>  --}}
 <div class="container">
     <div class="row test-row-second ">
         
@@ -406,7 +373,7 @@
                    <div class="but-cryp"><p class="">Buy Crypto</p></div>
                 </div>
         </div>
-        <div class="col-xl-4 col-lg-4 my-auto col-md-4 col-sm-12 col-12 ">
+        <div class="col-xl-4 col-lg-4 my-auto col-md-4 col-sm-12 col-12 crypt-top">
             <div class="bx-crypto">
                 <div> <img src="{{ asset('assets/images/trade.png') }}" class="crypto-img" > </div>
                 <div> <p class="buy-sell">Trade Asstes</p></div>
@@ -421,7 +388,7 @@
 
         </div>
 
-        <div class="col-xl-4 col-lg-4 my-auto col-md-4 col-sm-12 col-12 ">
+        <div class="col-xl-4 col-lg-4 my-auto col-md-4 col-sm-12 col-12  crypt-top">
             <div class="bx-crypto">
                 <div> <img src="{{ asset('assets/images/learncrypto.png') }}" class="crypto-img"> </div>
                 <div> <p class="buy-sell">Learn Crypto</p></div>
@@ -600,7 +567,7 @@
     
     <div class="row test-row-second ">
       
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
            <div class="footer-subrow ">
             <div>
             <p class="p-first ">Ready to get started?</p>
@@ -647,8 +614,9 @@
     $(".div1").mouseleave(function(){
         $(".div1").hide();
         $(".only-img").show();
+        $(".only-img").css("margin-left","20px")
 
-        $(".only-img4").css("margin-right","40px")
+        $(".only-img4").css("margin-right","20px")
 
     });
 
@@ -665,8 +633,8 @@
     $(".div2").mouseleave(function(){
         $(".div2").hide();
         $(".only-img1").show();
-        $(".only-img").css("margin-left", "20px");
-        $(".only-img4").css("margin-right", "20px");
+        $(".only-img").css("margin-left", "40px");
+        $(".only-img4").css("margin-right", "40px");
     });
     
 
@@ -682,8 +650,8 @@
     $(".div3").mouseleave(function(){
         $(".div3").hide();
         $(".only-img2").show();
-        $(".only-img").css("margin-left", "20px");
-        $(".only-img4").css("margin-right", "20px");
+        $(".only-img").css("margin-left", "40px");
+        $(".only-img4").css("margin-right", "40px");
     });
 
 
@@ -704,12 +672,12 @@
         $(".only-img").css("margin-left", "40px");
         $(".only-img4").css("margin-right", "40px");
     });
-
+                                                            
 
     $(".only-img4").hover(function(){
         $(this).hide();
-        $(".div5").show();
-        $(".only-img").css("margin-left", "-20px");
+        $(".div5").show(); 
+        $(".only-img").css("margin-left", "-40px");
 
 
     });
