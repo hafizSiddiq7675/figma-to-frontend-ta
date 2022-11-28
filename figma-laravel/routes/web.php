@@ -46,6 +46,9 @@ Route::get('/cv-eight', function () {
 Route::get('/cv-nine', function () {
     return view('cv.index-nine-cv');
 });
+Route::get('/cv-ten', function () {
+    return view('cv.index-ten-cv');
+});
 
 
 Route::get('/Crypto', function () {

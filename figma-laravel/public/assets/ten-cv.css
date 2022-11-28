@@ -1,0 +1,59 @@
+.card{
+    margin-top: 2%;
+    width: 70%;
+}
+.five-w{
+padding-top: 10px;
+}
+.seven-w{
+
+}
+.purple-r{
+    width: 100%;
+    background-color: rgb(197, 130, 206);
+    align-content: center;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.picture-frame{
+    border:10px solid rgb(205, 165, 210);
+    margin-left: -60px;
+    margin-top: 90px;
+
+    position: relative;
+    width: 100%;
+    height: 260px;
+}
+.btn{
+    margin-top: 90px;
+}
+.name{
+    padding-top: -10px;
+    font-size: 42px;
+    color:rgb(238, 229, 229);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parah-text{
+    margin-top: 30px;
+    font-size: 20px;
+    color:rgb(238, 229, 229);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+    padding-top:60px;
+    font-size: 35px;
+
+    
+}
+.point{
+    text-align: center;
+    width:100%;
+    font-size: 16px;
+    margin-top:-32px ;
+
+
+}
+.at{
+    font-size: 50px;
+}
