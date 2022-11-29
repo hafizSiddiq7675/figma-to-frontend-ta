@@ -1,5 +1,5 @@
 .card{
-    margin-top: 2%;
+    margin:20px 0px;
     width: 70%;
 }
 .five-w{
@@ -10,10 +10,11 @@ padding-top: 10px;
 }
 .purple-r{
     width: 100%;
-    background-color: rgb(197, 130, 206);
+    background-color: rgb(166, 96, 175);
     align-content: center;
     text-align: center;
     padding-top: 80px;
+    border-radius: 8px;
 
 }
 .picture-frame{
@@ -27,6 +28,13 @@ padding-top: 10px;
 }
 .btn{
     margin-top: 90px;
+    background-color: rgb(238, 229, 229);
+    color:rgb(166, 96, 175) ;
+    border:none;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color:rgb(166, 96, 175) ;
 }
 .name{
     padding-top: -10px;
@@ -40,20 +48,89 @@ padding-top: 10px;
     color:rgb(238, 229, 229);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.parah-text p{
+    font-family:'Inter';
+    font-weight: bolder;
+}
 .about{
-    padding-top:60px;
-    font-size: 35px;
+    margin-top:40px;
+    font-size: 27px;
 
     
 }
 .point{
     text-align: center;
     width:100%;
-    font-size: 16px;
-    margin-top:-32px ;
+    font-size: 14px;
+    padding: 20px 25px;
+    font-family: 'Inter';
+    font-weight: bold;
 
 
 }
 .at{
-    font-size: 50px;
+    font-size: 70px;
+    margin-bottom: -20px;
+}
+.year-fit{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px 20px;}
+    
+.content{
+    /* text-align: center; */
+    padding-left: 20px;
+
+}
+.content p{
+    font-family: 'Inter';
+}
+.head-button{
+    background-color: rgb(166, 96, 175);
+    color:azure;
+    border:none;
+    width:80%;
+    margin:42px 0px;
+    margin-left:20px;
+    font-family: 'Inter';
+}
+.year-gap{
+    padding-left:28px;
+    font-family: 'Inter';
+}
+.year-gap-one{
+    padding-left:42px;
+    font-family: 'Inter';
+}
+.name-company{
+    padding-left:22px;
+    font-weight: lighter;
+    font-family: 'Inter';
+}
+.content-language{
+    font-family: 'Inter';
+}
+.content-language p{
+   
+    font-family: 'Inter';
+    font-weight: bolder;
+    padding-left:30px;
+    
+}
+.pictures img{
+    display: flex;
+    flex-direction: column;
+    padding:9px;
+    
+}
+.content-photo{
+    display: flex;
+    flex-direction: row;
+}
+.content p{
+    font-family: 'Inter';
+    font-weight: bolder;
 }
