@@ -28,6 +28,55 @@
                     <p class="parah-text point text-center">I am an experienced professional seeking an opportunity to my background in data analysis and market trend research. I am a dedicated and detail-oriented marketing spey professional skills. I am an experienced professional seeking an opportunity to my background in data 
                             analysis and market trend research. I am a dedicated and detail-oriented marketing spey professional skills.</p>
                     </div>
+<<<<<<< HEAD
+                </div>
+                <div>
+                    <button class="head-button">
+                     Contact 
+                    </button>
+                 </div>
+                 <div class="content-photo">
+                 <div class="content pictures">
+                     <img src="{{ asset('assets/images/email.png') }}" alt="profile picture" >                       
+                     <img src="{{ asset('assets/images/phone.png') }}" alt="profile picture" >                      
+                     <img src="{{ asset('assets/images/location.png') }}" alt="profile picture" >                 
+                    </div>
+                 <div class="content">
+                     <p>Email</p>
+                     <P>Phone Number</P>
+                     <P>Address</P>
+                 </div>
+                 </div>
+                <div>
+                    <button class="head-button">
+                        Education
+                    </button>
+                    </div>  
+                    
+                    <div class="year-fit">
+                        <p>Bachelor Degree</p>
+                        <P class="year-gap">(years)</P>
+                    </div>
+                        <p class="name-company">Name of institute</p>
+                        
+                        <div class="year-fit">
+                        <p>Master Degree</p>
+                        <p class="year-gap-one">(years)</p>
+                        </div>
+                        <p class="name-company">Name of institute</p>
+
+
+
+
+
+
+
+
+
+
+
+                   
+=======
                     
 
                 </div>
@@ -58,6 +107,7 @@
                         <P>Programming</P>
                         <P>Coding</P>
                     </div>
+>>>>>>> main
             </div>
 
          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 seven-w">
@@ -72,6 +122,9 @@
                     </div>
                    
                 </div> 
+<<<<<<< HEAD
+                
+=======
                 <div>
                 <button class="head-button">
                     Education
@@ -89,6 +142,7 @@
                     <p class="year-gap-one">(years)</p>
                     </div>
                     <p class="name-company">Name of institute</p>
+>>>>>>> main
                 <div>
                 <button class="head-button">
                     Work Experience
@@ -106,6 +160,28 @@
                     <p class="year-gap-one">(years)</p>
                     </div>
                     <p class="name-company">Name of company</p>
+<<<<<<< HEAD
+
+
+
+                    <div>
+                        <button class="head-button">
+                            Skills
+                        </button>
+                    </div>
+                    <div class="content">
+                        <p>Deveoping</p>
+                        <P>Programming</P>
+                        <P>Coding</P>
+                    </div>
+
+
+
+
+
+
+=======
+>>>>>>> main
                     <div>
                         <button class="head-button">
                          Languages 
@@ -116,7 +192,13 @@
                          <P>English</P>
                          <P>Persian</P>
                      </div>
+<<<<<<< HEAD
+                     
+                     
+                     
+=======
                 
+>>>>>>> main
                 
                 
                 </div>
