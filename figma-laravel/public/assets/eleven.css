@@ -1,0 +1,90 @@
+*{
+    font-family: cursive;
+    font-weight: lighter;
+}
+.main-card{
+    width: 70%;
+    border:5px solid whitesmoke;
+    margin-top:20px;
+    margin-bottom:20px;    
+}
+.second-card{
+    margin-top:55px;
+    width: 95%;
+    border:none;
+    background-color: rgb(243, 243, 21);
+}
+.card-one{
+    border: none;
+    margin-right:50px;
+    margin-left:10px;
+
+    margin-top:17px;
+    background-color: rgb(243, 243, 21);
+
+}
+.portfolio{
+    padding-left: 33px;
+}
+.image-block{
+    width:100%;
+    height: 250px;
+    border:10px solid rgb(243, 243, 21);
+    /* border:10px solid black; */
+
+}
+.head-button{
+    border:none;
+    font-weight: bolder;
+    background-color: black;
+    width:100%;
+    color: white;
+    font-size: 20px;
+}
+
+.year-fit{
+    display: flex;
+    flex-direction: row;
+}
+.content-photo{
+    display: flex;
+    flex-direction: row;
+}
+.pictures{
+    display:flex;
+    flex-direction: column;
+    
+}
+.pictures img{padding: 12px 10px;
+    
+}
+.content{
+    padding-top:11px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.about{
+    font-size: 12px;
+    font-weight: bolder;
+   
+    
+}
+.move-left{
+    margin-left:24px;
+    padding:10px;
+}
+.year-gap{
+    padding-left:40px;
+}
+.year-gap-one{
+    padding-left:54px;
+}
+.year-fit p{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.content p{
+    font-size:18px;
+}
