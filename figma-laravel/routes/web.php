@@ -1,5 +1,6 @@
 <?php
-
+// routes/web.php
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -58,4 +59,16 @@ Route::get('/Crypto', function () {
 });
 Route::get('/C', function () {
     return view('crypto.index2');
+});
+Route::get('/helloreact', function () {
+    return view('index');
+});
+
+Route::post('count', function (Request $request) {
+    return response()->json([
+        'message' => $request->message,
+    ]);
+});
+Route::get('/ninth-template', function () {
+    return view('nine-template');
 });

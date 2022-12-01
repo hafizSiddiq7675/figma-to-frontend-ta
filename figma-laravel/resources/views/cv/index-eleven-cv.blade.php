@@ -46,12 +46,6 @@
 
          </div>
         </div>
-
-
-
-
-
-
             <div class="row">
                 <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
                     <div class="card m-3 card-one">
