@@ -75,7 +75,6 @@
 
 
                 
-                </div>
                 <div>
                     <button class="head-button">
                      Contact 
