@@ -5,6 +5,10 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
 import { width } from '@mui/system';
+import  Image from './images/phone.png';
+import  Image1 from './images/email.png';
+import  Image2 from './images/location.png';
+import  { } from 'bootstrap'
 
 const Img = styled('img')({
   margin: 'auto',
@@ -48,15 +52,15 @@ export default function ComplexGrid() {
         </Grid>
         <Grid>
  <Grid>
-              <button style={{backgroundColor:"rgb(166, 96, 175)",border:'none',color:'white',width:300,fontFamily: 'cursive'}}>Contact</button>
+              <Button className='btn btn-primary' style={{backgroundColor:"rgb(166, 96, 175)",border:'none',color:'white',width:300,fontFamily: 'cursive'}}>Contact</Button>
               <Grid style={{display:'flex',flexDirection:'row'}}>
-                <Grid  style={{display:'flex',flexDirection:'column'}}>
-                     <img src="{{assets/images/email.png}}" alt="profile picture" />                       
-                     <img src="{{ asset('assets/images/phone.png') }}" alt="profile picture" />                      
-                     <img src="{{ asset('assets/images/location.png') }}" alt="profile picture" />        
+                <Grid  style={{display:'flex',flexDirection:'column',paddingRight:'22px'}}>
+                     <img src={Image} alt="phone" style={{paddingTop:'20px',paddingBottom:'10px'}}/>   
+                     <img src={Image1} alt="email" style={{paddingTop:'11px'}}/>   
+                     <img src={Image2} alt="location" style={{paddingTop:'20px'}}/>   
                 </Grid>  
                  <Grid style={{fontFamily:'cursive'}}>
-                  <p>Phone </p>
+                  <p>Phone No</p>
                   <p>Email</p>
                   <p>Address</p>
                   </Grid>       
@@ -130,9 +134,7 @@ export default function ComplexGrid() {
                   <p>Urdu</p>
                   <p>German</p>       
                </Grid>
-              </Grid>
-            
-           
+              </Grid>        
         </Grid>
       </Grid>
     </Paper>

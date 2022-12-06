@@ -36,9 +36,7 @@
                  </div>
                  <div class="content-photo">
                  <div class="content pictures">
-                     <img src="{{ asset('assets/images/email.png') }}" alt="profile picture" >                       
-                     <img src="{{ asset('assets/images/phone.png') }}" alt="profile picture" >                      
-                     <img src="{{ asset('assets/images/location.png') }}" alt="profile picture" >                 
+                                   
                     </div>
                  <div class="content">
                      <p>Email</p>
