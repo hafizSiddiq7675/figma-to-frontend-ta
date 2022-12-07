@@ -72,3 +72,7 @@ Route::post('count', function (Request $request) {
 Route::get('/ninth-template', function () {
     return view('nine-template');
 });
+
+Route::get('/portfolio-template', function() {
+    return view('template.portfolio');
+});

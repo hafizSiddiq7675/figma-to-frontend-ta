@@ -8,7 +8,6 @@ import { width } from '@mui/system';
 import  Image from './images/phone.png';
 import  Image1 from './images/email.png';
 import  Image2 from './images/location.png';
-import  { } from 'bootstrap'
 
 const Img = styled('img')({
   margin: 'auto',
@@ -52,7 +51,7 @@ export default function ComplexGrid() {
         </Grid>
         <Grid>
  <Grid>
-              <Button className='btn btn-primary' style={{backgroundColor:"rgb(166, 96, 175)",border:'none',color:'white',width:300,fontFamily: 'cursive'}}>Contact</Button>
+              <button style={{backgroundColor:"rgb(166, 96, 175)",border:'none',color:'white',width:300,fontFamily: 'cursive'}}>Contact</button>
               <Grid style={{display:'flex',flexDirection:'row'}}>
                 <Grid  style={{display:'flex',flexDirection:'column',paddingRight:'22px'}}>
                      <img src={Image} alt="phone" style={{paddingTop:'20px',paddingBottom:'10px'}}/>   
@@ -90,7 +89,7 @@ export default function ComplexGrid() {
         </Grid>
         </Grid>
       
-        <Grid item xs={3} md={3} lg={6}>
+        <Grid item xs={6} md={6} lg={6}>
         <Grid>
           <Grid style={{ height:250, width:400, borderWidth: 5,border:'10px solid rgb(205, 165, 210)',marginTop: "80px",marginLeft: "-100px"}}>
             <button style={{border:'none',margin:'124px',backgroundColor:"rgb(205, 165, 210)",color:'purple',padding:'3px',fontSize:'16px',fontFamily:'cursive',fontWeight:'bolder'}}>
