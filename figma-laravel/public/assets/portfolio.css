@@ -1,8 +1,9 @@
-r-section
-	04.	About-section
+/* r-section
+	04. About-section
 			1. resume-area
 			2. skill-area
 			3. brand-area
+    
 	05.	Portfolio-section
 	06.	Portfolio-modal popup
 	07.	Client-section
@@ -13,8 +14,8 @@ r-section
 	12.	Mobile-Menu
 	13.	Demo-section
 
+ */
 
-**********************************************/
 
 
 
@@ -292,7 +293,7 @@ a:hover,
 }
 a,
 button {
-	color: ;
+	color: white;
 	outline: medium none;
 }
 button{cursor: pointer;}
@@ -507,7 +508,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	z-index: 999999;
+	/* z-index: 999999; */
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
@@ -547,7 +548,7 @@ body {
 .logo-text a h1{
     background-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgba(255,255,255,0);
@@ -664,9 +665,7 @@ body {
     padding-left: 235px;
     position: relative;
 }
-.banner-area {
 
-}
 .section-divide{
 	padding-top:100px;
 	padding-bottom:70px;
@@ -918,7 +917,7 @@ body {
 	font-size:15px;
 }
 .btn {
-    -moz-user-select: none;
+
     border: medium none;
     border-radius: 0;
     display: inline-block;
@@ -1125,9 +1124,7 @@ body {
 .custom {
     margin: 0 -15px;;
 }
-.Portfolio-wrapper {
 
-}
 .Portfolio-wrapper img {
 	width: 100%;
 	background:#000;
@@ -1167,7 +1164,7 @@ body {
 }	
 
 .Portfolio-wrapper:hover img {
-    -webkit-transform: scale(1.1, 1.1);
+
     -transform: scale(1.1, 1.1);
 }
 .Portfolio-wrapper .portfolio-img img {
@@ -1462,7 +1459,7 @@ body {
     display: inline-block;
     position: relative;
 	text-align:right;
-	float: right;
+	float:none;
     margin-top: 10px;	
 }
 .des-img .des-date span {

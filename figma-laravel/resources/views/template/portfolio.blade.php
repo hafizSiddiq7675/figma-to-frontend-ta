@@ -9,22 +9,24 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	  <link rel="manifest" href="site.webmanifest">
+	  {{--  <link rel="manifest" href="{{ asset('site.webmanifest') }}">  --}}
 	  <link rel="shortcut icon" type="x-icon" href="favicon.ico">
+	  {{--  <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">  --}}
+
 	  <!-- Place favicon.ico in the root directory -->
 	  
 	  <!-- START ALL CSS -->
-	  <link rel="stylesheet" href="css/font-awesome.min.css">
-	  <link rel="stylesheet" href="css/animate.min.css">
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" href="css/jquery.fancybox.css">
-	  <link rel="stylesheet" href="css/slicknav.css">
-	  <link rel="stylesheet" href="css/magnific-popup.css">
-	  <link rel="stylesheet" href="css/owl.carousel.min.css">
-	  <link rel="stylesheet" href="css/line-awesome.css">
-	  <link rel="stylesheet" href="css/portfolio.css">
-	  <link rel="stylesheet" href="css/responsive.css">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/font-awsome.min.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/animate.min.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/bootstrap.min.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/fancy-box.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/slick-nav.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/magnific-popup.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/owl.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/line-awsome.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/portfolio.css')}}">
+	  <link rel="stylesheet" type="text/css" href="{{asset('assets/responsive.css')}}">
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-
 
 		<!-- END ALL CSS -->
 	</head>
@@ -91,7 +93,9 @@
 			<div class="section-wrapper">
 				<section>
 					<div id="home" class="banner-area content active">
-						<div class="banne-middle vh d-flex" style="background-image:url(img/bg3.jpg)">
+						<div class="banne-middle vh d-flex" style="background-image: url('{{ asset('assets/images/bg3.jpg')}}');"
+
+						>
 							<div class="container h-100">
 								<div class="row h-100 align-items-center justify-content-center">
 									<div class="col-md-12 text-center">
@@ -125,7 +129,7 @@
 							<div class="row align-items-center">
 								<div class="col-12 col-lg-5 col-sm-12 mb-30">
 									<div class="about-img">
-										<img src="img/ab2.jpg" alt="">
+										<img src="{{ asset('assets/images/ab2.jpg') }}" alt="profile picture" >
 									</div>
 								</div>
 								<div class="col-12 col-lg-7 col-sm-12 mb-30">
@@ -301,42 +305,54 @@
 										<div class="brand-wrapper">
 											<div class="brand-img">
 												<div class="img">
-													<a href="#"><img src="img/brand/b1.png" alt="" /></a>
+													<a href="#">
+														<img src="{{ asset('assets/images/b1.png') }}" alt="picture" >	
+													</a>										
 												</div>
 											</div>
 										</div>
 										<div class="brand-wrapper">
 											<div class="brand-img">
 												<div class="img">
-													<a href="#"><img src="img/brand/b2.png" alt="" /></a>
+													<a href="#">
+														<img src="{{ asset('assets/images/b2.png') }}" alt="picture" >	
+													</a>
 												</div>
 											</div>
 										</div>
 										<div class="brand-wrapper">
 											<div class="brand-img">
 												<div class="img">
-													<a href="#"><img src="img/brand/b3.png" alt="" /></a>
+													<a href="#">
+														<img src="{{ asset('assets/images/b3.png') }}" alt="picture" >	
+													</a>
 												</div>
 											</div>
 										</div>
 										<div class="brand-wrapper">
 											<div class="brand-img">
 												<div class="img">
-													<a href="#"><img src="img/brand/b4.png" alt="" /></a>
+													<a href="#">
+														<img src="{{ asset('assets/images/b4.png') }}" alt="picture" >	
+													</a>
 												</div>
 											</div>
 										</div>
 										<div class="brand-wrapper">
 											<div class="brand-img">
 												<div class="img">
-													<a href="#"><img src="img/brand/b2.png" alt="" /></a>
+													<a href="#">
+														<img src="{{ asset('assets/images/b2.png') }}" alt="picture" >	
+													</a>
 												</div>
 											</div>
 										</div>
 										<div class="brand-wrapper">
 											<div class="brand-img">
 												<div class="img">
-													<a href="#"><img src="img/brand/b3.png" alt="" /></a>
+													<a href="#">
+														<img src="{{ asset('assets/images/b3.png') }}" alt="picture" >	
+													</a>
 												</div>
 											</div>
 										</div>
@@ -1223,24 +1239,30 @@
 		
 		
 		<!-- START ALL JS/SCRIPT -->
-		<script src="js/vendor/modernizr-3.6.0.min.js"></script>
-		<script src="js/vendor/jquery-3.5.1.min.js"></script>		  	  				 		 
-		<script src="js/bootstrap.min.js"></script> 
-		<script src="js/typed.js"></script> 		
-		<script src="js/isotope.pkgd.min.js"></script>
-		<script src="js/animation.model.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>			
-		<script src="js/fancyBox v2.1.5.js"></script>
-		<script src="js/jquery.parallax-1.1.3.js"></script>	
-		<script src="js/ajax.mail.js"></script>	
-		<script src="js/jquery.magnific-popup.min.js"></script>							
-		<script src="js/jquery.barfiller.js"></script>							
-		<script src="js/jquery.counterup.min.js"></script>
-		<script src="js/waypoints.min.js"></script> 			
-		<script src="js/jquery.slicknav.min.js"></script> 					
-		<script src="js/owl.carousel.min.js"></script> 
-		<script src="js/main.js"></script>
-		<script src="js/plugins.js"></script>	
+		<script src="{{ asset('template/js/modernizr.min.js') }}"></script>
+		<script src="{{ asset('template/js/jquery.min.js') }}"></script>
+		<script src="{{ asset('template/js/bootstrap.min.js') }}"></script>
+		<script src="{{ asset('template/js/typed.min.js') }}"></script>
+		<script src="{{ asset('template/js/isotope.pkgd.min.js') }}"></script>
+		<script src="{{ asset('template/js/animation.model.js') }}"></script>
+		<script src="{{ asset('template/js/imagesloaded.pkgd.min.js') }}"></script>
+		<script src="{{ asset('template/js/fancyBox v2.1.5.js') }}"></script>
+		<script src="{{ asset('template/js/jquery.parallax-1.1.3.js') }}"></script>
+		<script src="{{ asset('template/js/ajax.mail.js') }}"></script>
+		<script src="{{ asset('template/js/jquery.magnific-popup.min.js') }}"></script>
+		<script src="{{ asset('template/js/jquery.barfiller.js') }}"></script>
+		<script src="{{ asset('template/js/jquery.counterup.min.js') }}"></script>
+		<script src="{{ asset('template/js/waypoints.min.js') }}"></script>
+		<script src="{{ asset('template/js/jquery.slicknav.min.js') }}"></script>
+		<script src="{{ asset('template/js/owl.carousel.min.js') }}"></script>
+		<script src="{{ asset('template/js/main.js') }}"></script>
+		<script src="{{ asset('template/js/plugins.js') }}"></script>
+
+
+
+
+
+	
 	<!-- END ALL JS/SCRIPT -->	
 			  
 	</body>
