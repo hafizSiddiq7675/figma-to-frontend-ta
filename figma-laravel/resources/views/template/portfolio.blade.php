@@ -8,13 +8,12 @@
 	  <meta name="description" content="">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	  <link rel="manifest" href="site.webmanifest">
-	  {{--  <link rel="manifest" href="{{ asset('site.webmanifest') }}">  --}}
-	  <link rel="shortcut icon" type="x-icon" href="favicon.ico">
-	  {{--  <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">  --}}
+	  <link rel="manifest" href="{{ asset('site.webmanifest') }}">
+	  {{--  <link rel="shortcut icon" type="x-icon" href="favicon.ico">  --}}
+	  <link rel="shortcut icon" type="x-icon" href="{{ asset('assets/imgages/favicon.ico') }}">
 
 	  <!-- Place favicon.ico in the root directory -->
-	  
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	  <!-- START ALL CSS -->
 	  <link rel="stylesheet" type="text/css" href="{{asset('assets/font-awsome.min.css')}}">
 	  <link rel="stylesheet" type="text/css" href="{{asset('assets/animate.min.css')}}">
@@ -75,7 +74,7 @@
 						<span></span>
 						<span></span>
 						<span></span>
-						<div class="mobile-menu mainmenu" id="mobile-menu">
+						<div class="mobile-menu mainmenu" id	mobile-menu">
 							<ul id="nav">
 								<li class="active"><a href="#home"><i class="las la-home"></i></a></li>
 								<li><a href="#about"><i class="las la-address-book"></i></a></li>
@@ -294,7 +293,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="row">
+							{{--  <div class="row">
 								<div class="col-lg-12">
 									<div class="tittle-warp">
 										<h2>Our Partners</h2>
@@ -306,7 +305,7 @@
 											<div class="brand-img">
 												<div class="img">
 													<a href="#">
-														<img src="{{ asset('assets/images/b1.png') }}" alt="picture" >	
+														<img src="{{ asset('assets/images/b1.png') }}" alt="picture">	
 													</a>										
 												</div>
 											</div>
@@ -358,7 +357,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div>  --}}
 						</div>
 					</div>	
 				</section>
@@ -370,7 +369,9 @@
 								<div class="col-lg-12">
 									<div class="section-title w-90 text-left">
 										<span>portfolio</span>
-										<h2>My Works <img src="img/ti.png" alt="" /></h2>
+										<h2>My Works
+											<img src="{{ asset('assets/images/ti.png') }}" alt="picture" >	
+										</h2>
 									</div>
 								</div>
 							</div>
@@ -388,7 +389,9 @@
 										<div class="Portfolio-wrapper mb-45">
 											<div class="portfolio-img">								
 												<a class="video-btn" data-type="iframe" 
-												href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"><img src="img/portfolio/1.jpg" alt=""></a>
+												href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1">
+												<img src="{{ asset('assets/images/1.jpg') }}" alt="picture" >	
+											</a>
 											</div>
 											<div class="portfolio-content">
 												<h2><a href="#">Personal videos</a></h2>	
@@ -399,8 +402,8 @@
 									<div class="col-12 col-lg-6 col-md-6 col-sm-12 grid-item cat2 cat5">
 										<div class="Portfolio-wrapper mb-45">
 											<div class="portfolio-img">	
-												<a href="img/portfolio/2.jpg" class="popup-img">
-													<img src="img/portfolio/2.jpg" alt="">
+												<a href="{{ asset('assets/images/2.jpg') }}" class="popup-img">
+													<img src="{{ asset('assets/images/2.jpg') }}" alt="picture" >	
 												</a>		
 											</div>	
 											<div class="portfolio-content">
@@ -412,7 +415,10 @@
 									<div class="col-12 col-lg-6 col-md-6 col-sm-12 grid-item cat5 cat2 cat3">
 										<div class="Portfolio-wrapper mb-45">
 											<div class="portfolio-img">	
-												<a class="popup-img" href="img/portfolio/3.jpg"><img src="img/portfolio/3.jpg" alt=""></a>	
+												<a class="popup-img" href="{{ asset('assets/images/3.jpg') }}">
+													<img src="{{ asset('assets/images/3.jpg') }}" alt="picture" >	
+
+												</a>	
 											</div>								
 											<div class="portfolio-content">
 												<h2><a href="#">Ya Moda Flyer</a></h2>	
@@ -423,7 +429,9 @@
 									<div class="col-12 col-lg-6 col-md-6 col-sm-12 grid-item cat3 cat2">
 										<div class="Portfolio-wrapper mb-45">
 											<div class="portfolio-img">	
-												<a class="popup-img" href="img/portfolio/4.jpg"><img src="img/portfolio/4.jpg" alt=""></a>		
+												<a class="popup-img" href="{{ asset('assets/images/4.jpg') }}">
+													<img src="{{ asset('assets/images/4.jpg') }}" alt="picture" >	
+												</a>		
 											</div>
 											<div class="portfolio-content">
 												<h2><a href="#">Hello I Am</a></h2>	
@@ -434,7 +442,9 @@
 									<div class="col-12 col-lg-6 col-md-6 col-sm-12 grid-item cat4">
 										<div class="Portfolio-wrapper mb-30">
 											<div class="portfolio-img">	
-												<a data-toggle="modal" data-target="#portfolioModalone" href="#"><img src="img/portfolio/5.jpg" alt=""></a>	
+												<a data-toggle="modal" data-target="#portfolioModalone" href="#">
+													<img src="{{ asset('assets/images/5.jpg') }}" alt="picture" >	
+												</a>	
 											</div>
 											<div class="portfolio-content">
 												<h2><a href="#">Waffle bookpack</a></h2>	
@@ -445,7 +455,9 @@
 									<div class="col-12 col-lg-6 col-md-6 col-sm-12 grid-item cat5 cat4">
 										<div class="Portfolio-wrapper mb-30">
 											<div class="portfolio-img">
-												<a data-toggle="modal" data-target="#portfolioModaltwo" href="#"><img src="img/portfolio/6.jpg" alt=""></a>										
+												<a data-toggle="modal" data-target="#portfolioModaltwo" href="#">
+													<img src="{{ asset('assets/images/6.jpg') }}" alt="picture" >	
+												</a>										
 											</div>
 											<div class="portfolio-content">
 												<h2><a href="#">Luiz Abdo</a></h2>	
@@ -466,7 +478,9 @@
 								<div class="col-lg-12">
 									<div class="section-title w-90 text-left">
 										<span>client</span>
-										<h2>My client <img src="img/ti.png" alt="" /></h2>
+										<h2>My client 
+											<img src="{{ asset('assets/images/ti.png') }}" alt="picture" >
+										</h2>
 									</div>
 								</div>
 							</div>
@@ -482,8 +496,7 @@
 											</div>
 											<div class="testi d-sm-flex align-items-center">
 												<div class="testi-img">
-													<img src="img/testi/t1.jpg" alt="">
-												</div>
+													<img src="{{ asset('assets/images/t1.jpg') }}" alt="picture" >												</div>
 												<div class="testi-bio">
 													<h4>Kaiara Spencer</h4>
 													<h6>CEO, Compamy</h6>
@@ -502,7 +515,7 @@
 											</div>
 											<div class="testi d-sm-flex align-items-center">
 												<div class="testi-img">
-													<img src="img/testi/t2.jpg" alt="">
+													<img src="{{ asset('assets/images/t2.jpg') }}" alt="picture" >
 												</div>
 												<div class="testi-bio">
 													<h4>Michael Redux</h4>
@@ -522,7 +535,7 @@
 											</div>
 											<div class="testi d-sm-flex align-items-center">
 												<div class="testi-img">
-													<img src="img/testi/t3.jpg" alt="">
+													<img src="{{ asset('assets/images/t3.jpg') }}" alt="picture" >
 												</div>
 												<div class="testi-bio">
 													<h4>Corine Willis</h4>
@@ -547,7 +560,8 @@
 								<div class="col-lg-12">
 									<div class="section-title w-90 text-left">
 										<span>News</span>
-										<h2>My Blog <img src="img/ti.png" alt="" /></h2>
+										<h2>My Blog<img src="{{ asset('assets/images/ti.png') }}" alt="picture" >
+										</h2>
 									</div>
 								</div>
 							</div>
@@ -555,13 +569,14 @@
 								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="blog-warp pb-30">
 										<div class="blog-img">
-											<a data-toggle="modal" data-target="#blogModalone" href=""><img src="img/blog/1.jpg" alt=""></a>
+											<a data-toggle="modal" data-target="#blogModalone" href="">
+												<img src="{{ asset('assets/images/1b.jpg') }}" alt="picture" >
+											</a>
 											<span>fushion</span>
 										</div>																	
 										<div class="blog-content">
 											<div class="des-img">
-												<img src="img/testi/t1.jpg" alt="" />
-												<h5><span>by</span>Kaiara Spencer</h5>
+												<img src="{{ asset('assets/images/t1.jpg') }}" alt="picture" >												<h5><span>by</span>Kaiara Spencer</h5>
 												<div class="des-date">
 													<span>07 Aug 2021</span>
 												</div>
@@ -574,12 +589,13 @@
 								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="blog-warp pb-30">
 										<div class="blog-img">
-											<a data-toggle="modal" data-target="#blogModaltwo" href=""><img src="img/blog/2.jpg" alt=""></a>
+											<a data-toggle="modal" data-target="#blogModaltwo" href="">
+												<img src="{{ asset('assets/images/2b.jpg') }}" alt="picture" >
 											<span>Creative</span>
 										</div>																	
 										<div class="blog-content">
 											<div class="des-img">
-												<img src="img/testi/t2.jpg" alt="" />
+												<img src="{{ asset('assets/images/t2.jpg') }}" alt="picture" >												<h5><span>by</span>Kaiara Spencer</h5>
 												<h5><span>by</span>Michael Redux</h5>
 												<div class="des-date">
 													<span>16 July 2021</span>
@@ -593,12 +609,14 @@
 								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="blog-warp pb-30">
 										<div class="blog-img">
-											<a data-toggle="modal" data-target="#blogModalthree" href=""><img src="img/blog/3.jpg" alt=""></a>
+											<a data-toggle="modal" data-target="#blogModalthree" href="">
+												<img src="{{ asset('assets/images/3b.jpg') }}" alt="picture" >
+											</a>
 											<span>Lifestyle</span>
 										</div>																	
 										<div class="blog-content">
 											<div class="des-img">
-												<img src="img/testi/t3.jpg" alt="" />
+												<img src="{{ asset('assets/images/t3.jpg') }}" alt="picture" >												<h5><span>by</span>Kaiara Spencer</h5>
 												<h5><span>by</span>Corine Willis</h5>
 												<div class="des-date">
 													<span>02 June 2021</span>
@@ -612,12 +630,14 @@
 								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="blog-warp pb-30">
 										<div class="blog-img">
-											<a data-toggle="modal" data-target="#blogModalfour" href=""><img src="img/blog/4.jpg" alt=""></a>
+											<a data-toggle="modal" data-target="#blogModalfour" href="">
+												<img src="{{ asset('assets/images/4b.jpg') }}" alt="picture" >
+											</a>
 											<span>Concept</span>
 										</div>																	
 										<div class="blog-content">
 											<div class="des-img">
-												<img src="img/testi/t2.jpg" alt="" />
+												<img src="{{ asset('assets/images/t2.jpg') }}" alt="picture" >												<h5><span>by</span>Kaiara Spencer</h5>
 												<h5><span>by</span>Jimm Smith</h5>
 												<div class="des-date">
 													<span>21 April 2021</span>
@@ -638,7 +658,7 @@
 							<div class="col-lg-12">
 								<div class="section-title w-90 text-left">
 									<span>contact</span>
-									<h2>Contact Me<img src="img/ti.png" alt="" /></h2>
+									<h2>Contact Me<img src="{{ asset('assets/images/ti.png') }}"  alt="" /></h2>
 								</div>
 							</div>
 						</div>
@@ -872,12 +892,11 @@
 								</div>
 								<div class="col-12 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="p-model-img extra-hover">
-										<img src="img/portfolio/3.jpg" alt="" />
-									</div>
+										<img src="{{ asset('assets/images/3b.jpg') }}" alt="picture" >										</div>
 								</div>
 								<div class="col-12 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="p-model-img extra-hover">
-										<img src="img/portfolio/4.jpg" alt="" />
+										<img src="{{ asset('assets/images/2.jpg') }}" alt="picture" >										</div>
 									</div>
 								</div>
 							</div>
@@ -903,7 +922,7 @@
 							<div class="row">
 								<div class="col-12 col-lg-12 col-md-12 col-sm-12">
 									<div class="p-model-img">
-										<img src="img/blog/1.jpg" alt="" />
+										<img src="{{ asset('assets/images/1b.jpg') }}" alt="picture" >										</div>
 									</div>
 								</div>
 							</div>
@@ -1162,7 +1181,7 @@
 							<div class="row">
 								<div class="col-12 col-lg-12 col-md-12 col-sm-12">
 									<div class="p-model-img">
-										<img src="img/blog/4.jpg" alt="" />
+										<img src="{{ asset('assets/images/4b.jpg') }}" alt="picture" >										</div>
 									</div>
 								</div>
 							</div>
@@ -1171,7 +1190,7 @@
 									<div class="blog-popup left-part">
 										<div class="blog-content">
 											<div class="des-img">
-												<img src="img/testi/t1.jpg" alt="" />
+												<img src="{{ asset('assets/images/ti.jpg') }}" alt="picture" >										</div>
 												<h5><span>by</span>Jimm Smith</h5>
 												<div class="des-date">
 													<span>21 April 2021</span>
@@ -1219,12 +1238,12 @@
 								</div>
 								<div class="col-12 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="p-model-img extra-hover">
-										<img src="img/blog/2.jpg" alt="" />
+											{{--  <img src="{{ asset('assets/images/1b.jpg') }}" alt="picture" >										</div>  --}}
 									</div>
 								</div>
 								<div class="col-12 col-lg-6 col-md-6 col-sm-12 mb-30">
 									<div class="p-model-img extra-hover">
-										<img src="img/blog/3.jpg" alt="" />
+										{{--  <img src="img/blog/3.jpg" alt="" />  --}}
 									</div>
 								</div>
 							</div>
@@ -1243,7 +1262,7 @@
 		<script src="{{ asset('template/js/jquery.min.js') }}"></script>
 		<script src="{{ asset('template/js/bootstrap.min.js') }}"></script>
 		<script src="{{ asset('template/js/typed.min.js') }}"></script>
-		<script src="{{ asset('template/js/isotope.pkgd.min.js') }}"></script>
+		<script src="{{ asset('template/js/isotope.pkg.min.js') }}"></script>
 		<script src="{{ asset('template/js/animation.model.js') }}"></script>
 		<script src="{{ asset('template/js/imagesloaded.pkgd.min.js') }}"></script>
 		<script src="{{ asset('template/js/fancyBox v2.1.5.js') }}"></script>
