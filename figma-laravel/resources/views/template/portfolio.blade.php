@@ -26,7 +26,25 @@
 	  <link rel="stylesheet" type="text/css" href="{{asset('assets/portfolio.css')}}">
 	  <link rel="stylesheet" type="text/css" href="{{asset('assets/responsive.css')}}">
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-
+		<style>
+			.menu-toggle:before {
+				content: "×";
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				font-size: 24px;
+				line-height: 24px;
+				color: #fff;
+			  }
+			  
+			  #toggle:checked + .menu {
+				display: block;
+			  }
+			  
+			  #toggle:checked + .menu-toggle:before {
+				content: "☰";
+			  }
+		</style>
 		<!-- END ALL CSS -->
 	</head>
 
@@ -50,10 +68,10 @@
 					<div id="header-sticky" class="demo-header small-menu menu-area">
 						<div class="logo-text text-texture">
 							<a href="#home">
-								<h1>A</h1>
+								<h1>T</h1>
 							</a>
 						</div>
-					</div>
+					</div>	
 					<div class="main-menu">
 						<ul class="nav">
 							<li class="active"><a href="#home">Home</a></li>
@@ -65,7 +83,7 @@
 						</ul>
 					</div>				
 					<div class="copy-right">
-						<p>©2021 Smith <br />Created By <a href="https://codecanyon.net/user/themexhunter">ThemexHunter</a>.</p>
+						<p>©2022 Tayyaba <br />Created By <a href="https://bitsoftsol.com/" style="color: blue;">BitSoftSol</a>.</p>
 					</div>
 				</div>
 				<nav role="navigation" class="d-block d-xl-none">
@@ -74,7 +92,7 @@
 						<span></span>
 						<span></span>
 						<span></span>
-						<div class="mobile-menu mainmenu" id	mobile-menu">
+						<div class="mobile-menu mainmenu" id="mobile-menu">
 							<ul id="nav">
 								<li class="active"><a href="#home"><i class="las la-home"></i></a></li>
 								<li><a href="#about"><i class="las la-address-book"></i></a></li>
@@ -92,14 +110,17 @@
 			<div class="section-wrapper">
 				<section>
 					<div id="home" class="banner-area content active">
-						<div class="banne-middle vh d-flex" style="background-image: url('{{ asset('assets/images/bg3.jpg')}}');"
+						<div class="banne-middle vh d-flex" style="background-image: url('{{ asset('assets/images/girl1.png')}}');background-repeat: no-repeat;
+						background-position-x: center;
+					  
+						"
 
 						>
 							<div class="container h-100">
 								<div class="row h-100 align-items-center justify-content-center">
 									<div class="col-md-12 text-center">
 										<div class="banner-text">
-											<h1>Amran Smith</h1>
+											<h1>Tayyyaba Mirza</h1>
 											<h4> Im a <span id="typed"></span></h4>
 										</div>
 										<div class="home-social d-none d-sm-block">
