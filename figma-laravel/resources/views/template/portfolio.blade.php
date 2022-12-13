@@ -4,7 +4,7 @@
 	<head>
 	  <meta charset="utf-8">
 	  <meta http-equiv="x-ua-compatible" content="ie=edge">
-	  <title>Amran- Personal Portfolio HTML Template</title>
+	  <title>HTML Template</title>
 	  <meta name="description" content="">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,25 +26,7 @@
 	  <link rel="stylesheet" type="text/css" href="{{asset('assets/portfolio.css')}}">
 	  <link rel="stylesheet" type="text/css" href="{{asset('assets/responsive.css')}}">
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-		<style>
-			.menu-toggle:before {
-				content: "×";
-				position: absolute;
-				top: 10px;
-				right: 10px;
-				font-size: 24px;
-				line-height: 24px;
-				color: #fff;
-			  }
-			  
-			  #toggle:checked + .menu {
-				display: block;
-			  }
-			  
-			  #toggle:checked + .menu-toggle:before {
-				content: "☰";
-			  }
-		</style>
+
 		<!-- END ALL CSS -->
 	</head>
 
@@ -120,7 +102,7 @@
 								<div class="row h-100 align-items-center justify-content-center">
 									<div class="col-md-12 text-center">
 										<div class="banner-text">
-											<h1>Tayyyaba Mirza</h1>
+											<h1>Tayyaba Mirza</h1>
 											<h4> Im a <span id="typed"></span></h4>
 										</div>
 										<div class="home-social d-none d-sm-block">

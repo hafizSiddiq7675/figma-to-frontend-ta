@@ -76,3 +76,6 @@ Route::get('/ninth-template', function () {
 Route::get('/portfolio-template', function() {
     return view('template.portfolio');
 });
+Route::get('/portfolio-dumb', function() {
+    return view('template.portfolio-dumb');
+});
