@@ -79,3 +79,6 @@ Route::get('/portfolio-template', function() {
 Route::get('/portfolio-dumb', function() {
     return view('template.portfolio-dumb');
 });
+Route::get('/text-generator', function() {
+    return view('text-generator.index');
+});
