@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-    
+
 Route::get('/cv-one', function () {
     return view('cv.index-one');
 });
@@ -71,4 +71,14 @@ Route::post('count', function (Request $request) {
 });
 Route::get('/ninth-template', function () {
     return view('nine-template');
+});
+
+Route::get('/portfolio-template', function() {
+    return view('template.portfolio');
+});
+Route::get('/portfolio-dumb', function() {
+    return view('template.portfolio-dumb');
+});
+Route::get('/text-generator', function() {
+    return view('text-generator.index');
 });
