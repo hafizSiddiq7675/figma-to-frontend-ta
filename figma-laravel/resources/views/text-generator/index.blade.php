@@ -32,20 +32,124 @@
         </div>
         <!--Container Main start-->
         
-        <div class="height-100 bg-warning">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Type your text</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-          
-        </div>
+        <h1>Font Converter</h1>
+        <p>Enter some text below to convert it to a different font:</p>
+    
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="input-text" style="height: 100px"></textarea>
+          </div>        <br>
+    
+        <label for="font-select">Select a font:</label>
+        
+        <select id="font-select" >
+          <option value="arial">Arial</option>
+          <option value="times-new-roman">Times New Roman</option>
+          <option value="courier-new">Courier New</option>
+          <option value="Franklin Gothic Medium">Franklin Gothic Medium	</option>
+          <option value="Trebuchet MS">Trebuchet MS	</option>
+          <option value="Geneva">Geneva</option>
+          <option value="Segoe UI">Segoe UI</option>
+          <option value="Optima">Optima</option>
+          <option value="Avanta Garde">Avanta Garde</option>
+          <option value="Big Caslon">Big Caslon</option>
+          <option value="Bodoni MT">Bodoni MT</option>
+          <option value="New Century Schoolbook">New Century Schoolbook</option>
+          <option value="Cambria">Cambria</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Goudy Old Style">Goudy Old Style</option>
+          <option value="Lucida Bright">Lucida Bright</option>
+          <option value="Perpetua">Perpetua</option>
+          <option value="Rockwell">Rockwell</option>
+          <option value="Consolas">Consolas</option>
+          <option value="Courier">Courier</option>
+          <option value="Lucida Console">Lucida Console</option>
+          <option value="Brush Script MT">Brush Script MT</option>
+          <option value="Impact">Impact</option>
+          <option value="Luminari">Luminari</option>
+          <option value="Copperplate">Copperplate</option>
+          <option value="papyrus"> papyrus</option>
+          <option value="Arial Black"> Arial Black</option>
+          <option value="Arial narrow">Arial narrow</option>
+          <option value="Arial Nova">Arial Nova</option>
+          <option value="Bahnschrift">Bahnschrift</option>
+          <option value="Bahnschrift Light">Bahnschrift Light</option>
+          <option value="Bahnschrift SemiBold">Bahnschrift SemiBold</option>
+          <option value="Bahnschrift SemiLight">Bahnschrift SemiLight</option>
+          <option value="Baskerville">Baskerville</option>
+          <option value="Calibri">Calibri</option>
+          <option value="Calibri Light">Calibri Light</option>
+          <option value="Cambodian">Cambodian</option>
+          <option value="Cambria">Cambria</option>
+          <option value="Candara">Candara</option>
+          <option value="Century Gothic">Century Gothic</option>
+          <option value="Chalkduster">Chalkduster</option>
+          <option value="Cherokee">Cherokee</option>
+          <option value="Comic Sans">Comic Sans</option>
+          <option value="Comic Sans MS">Comic Sans MS</option>
+          <option value="Consolas">Consolas</option>
+          <option value="Constantia">Constantia</option>
+          <option value="Copperplate">Copperplate</option>
+          <option value="Copperplate Gothic Light">Copperplate Gothic Light</option>
+          <option value="Copperplate Gothic Bold">Copperplate Gothic Bold</option>
+          <option value="Corbel">Corbel</option>
+          <option value="Courier">Courier</option>
+          <option value="Courier New">Impact</option>
+          <option value="Euphemia">Euphemia</option>
+          <option value="Futara">Futara</option>
+          <option value="Gabriola">Gabriola</option>
+          <option value="Gadugi">Gadugi</option>
+          <option value="Garamond">Garamond</option>
+          <option value="Geneva">Geneva</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Gill Sans">Gill Sans</option>
+          <option value="Goudy Old Style">Goudy Old Style</option>
+          <option value="Gulim">Gulim</option>
+          <option value="Hebrew">Hebrew</option>
+          <option value="Ink Free">Ink Free</option>
+          <option value="IrisUPC">IrisUPC</option>
+          <option value="Lucida Console">Lucida Console</option>
+          <option value="Lucida Handwriting">Lucida Handwriting	</option>
+          <option value="Lucida Sans">Lucida Sans</option>
+          <option value="Lucida Sans Typewriter">Lucida Sans Typewriter</option>
+          <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+          <option value="Lucidatypewriter">Lucidatypewriter</option>
+          <option value="Luminari">Luminari</option>
+          <option value="Malgun Gothic">Impact</option>
+           <option value="Impact">Impact</option>
+          <option value="Impact">Impact</option>
+          <option value="Impact">Impact</option>
+          <option value="Impact">Impact</option>
+          <option value="Impact">Impact</option>
+          <option value="Impact">Impact</option>
+          <option value="Impact">Impact</option>
+          <option value="Impact">Impact</option>
+
+
+
+        </select>
+        <br>
+    
+        <button onclick="convertFont()">Convert</button>
+        <br>
+        <br>
+    
+        <p>Converted text:</p>
+        <p id="converted-text"></p>
+    
         <!--Container Main end-->
     
     <script>
+        function convertFont() {
+            // Get the input text and selected font
+            var inputText = document.getElementById('input-text').value;
+            var selectedFont = document.getElementById('font-select').value;
+    
+            // Set the font of the converted text
+            document.getElementById('converted-text').style.fontFamily = selectedFont;
+    
+            // Set the converted text
+            document.getElementById('converted-text').innerHTML = inputText;
+          }
         document.addEventListener("DOMContentLoaded", function(event) {
        
        const showNavbar = (toggleId, navId, bodyId, headerId) =>{
