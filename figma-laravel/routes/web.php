@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-    
+
 Route::get('/cv-one', function () {
     return view('cv.index-one');
 });
